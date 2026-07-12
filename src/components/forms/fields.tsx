@@ -53,6 +53,34 @@ export function Select(props: SelectHTMLAttributes<HTMLSelectElement>) {
   );
 }
 
+/**
+ * Honeypot field for spam bots. Visually hidden and skipped by real users,
+ * but bots tend to fill it — the server drops any submission where it's set.
+ */
+export function Honeypot() {
+  return (
+    <div aria-hidden className="absolute left-[-9999px] top-[-9999px] h-0 w-0 overflow-hidden">
+      <label htmlFor="company-website">Company website (leave blank)</label>
+      <input
+        id="company-website"
+        type="text"
+        name="company"
+        tabIndex={-1}
+        autoComplete="off"
+      />
+    </div>
+  );
+}
+
+export function ErrorNote({ message }: { message: string }) {
+  if (!message) return null;
+  return (
+    <p role="alert" className="rounded-xl bg-red-50 px-4 py-3 text-sm text-red-700">
+      {message}
+    </p>
+  );
+}
+
 export function SuccessCard({
   title,
   message,

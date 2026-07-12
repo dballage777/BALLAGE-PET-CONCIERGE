@@ -1,23 +1,16 @@
 "use client";
 
-import { useState, type FormEvent } from "react";
-import { Field, Input, Textarea, SuccessCard } from "./fields";
+import { Field, Input, Textarea, SuccessCard, Honeypot, ErrorNote } from "./fields";
+import { useFormSubmit } from "./useFormSubmit";
 
 /**
- * General contact form. On submit it currently validates and shows a
- * confirmation. Wire the handler to an email/API route (e.g. Resend, Formspree,
- * or a Next.js route handler) before launch.
+ * General contact form. Submissions POST to /api/submit and are emailed to the
+ * business via Resend (see src/app/api/submit/route.ts).
  */
 export default function ContactForm() {
-  const [submitted, setSubmitted] = useState(false);
+  const { handleSubmit, submitting, success, error } = useFormSubmit("contact");
 
-  function handleSubmit(e: FormEvent<HTMLFormElement>) {
-    e.preventDefault();
-    // TODO: POST form data to your contact endpoint.
-    setSubmitted(true);
-  }
-
-  if (submitted) {
+  if (success) {
     return (
       <SuccessCard
         title="Message received"
@@ -27,7 +20,8 @@ export default function ContactForm() {
   }
 
   return (
-    <form onSubmit={handleSubmit} className="space-y-5" noValidate={false}>
+    <form onSubmit={handleSubmit} className="space-y-5">
+      <Honeypot />
       <div className="grid gap-5 sm:grid-cols-2">
         <Field label="Full name" htmlFor="c-name" required>
           <Input id="c-name" name="name" autoComplete="name" required />
@@ -47,11 +41,13 @@ export default function ContactForm() {
           placeholder="Tell us a little about your pet and what you're looking for…"
         />
       </Field>
+      <ErrorNote message={error} />
       <button
         type="submit"
-        className="w-full rounded-full bg-forest-800 px-7 py-3.5 text-sm font-semibold text-cream shadow-soft transition-all hover:-translate-y-0.5 hover:bg-forest-700 sm:w-auto"
+        disabled={submitting}
+        className="w-full rounded-full bg-forest-800 px-7 py-3.5 text-sm font-semibold text-cream shadow-soft transition-all hover:-translate-y-0.5 hover:bg-forest-700 disabled:cursor-not-allowed disabled:opacity-60 sm:w-auto"
       >
-        Send Message
+        {submitting ? "Sending…" : "Send Message"}
       </button>
     </form>
   );

@@ -1,24 +1,18 @@
 "use client";
 
-import { useState, type FormEvent } from "react";
 import { services } from "@/lib/services";
 import { serviceAreas } from "@/lib/site";
-import { Field, Input, Textarea, Select, SuccessCard } from "./fields";
+import { Field, Input, Textarea, Select, SuccessCard, Honeypot, ErrorNote } from "./fields";
+import { useFormSubmit } from "./useFormSubmit";
 
 /**
- * Meet & Greet / booking request form. Captures enough to start a care plan.
- * Wire the handler to your scheduling/CRM endpoint before launch.
+ * Meet & Greet / booking request form. Submissions POST to /api/submit and are
+ * emailed to the business via Resend (see src/app/api/submit/route.ts).
  */
 export default function BookingForm() {
-  const [submitted, setSubmitted] = useState(false);
+  const { handleSubmit, submitting, success, error } = useFormSubmit("booking");
 
-  function handleSubmit(e: FormEvent<HTMLFormElement>) {
-    e.preventDefault();
-    // TODO: POST booking request to scheduling / CRM endpoint.
-    setSubmitted(true);
-  }
-
-  if (submitted) {
+  if (success) {
     return (
       <SuccessCard
         title="Request received"
@@ -29,6 +23,7 @@ export default function BookingForm() {
 
   return (
     <form onSubmit={handleSubmit} className="space-y-5">
+      <Honeypot />
       <div className="grid gap-5 sm:grid-cols-2">
         <Field label="Your name" htmlFor="b-name" required>
           <Input id="b-name" name="name" autoComplete="name" required />
@@ -83,11 +78,13 @@ export default function BookingForm() {
           placeholder="Cooper is a 3-year-old golden retriever who loves long morning walks…"
         />
       </Field>
+      <ErrorNote message={error} />
       <button
         type="submit"
-        className="w-full rounded-full bg-gold-500 px-7 py-4 text-sm font-semibold text-forest-950 shadow-soft transition-all hover:-translate-y-0.5 hover:bg-gold-400"
+        disabled={submitting}
+        className="w-full rounded-full bg-gold-500 px-7 py-4 text-sm font-semibold text-forest-950 shadow-soft transition-all hover:-translate-y-0.5 hover:bg-gold-400 disabled:cursor-not-allowed disabled:opacity-60"
       >
-        Request My Meet &amp; Greet
+        {submitting ? "Sending…" : "Request My Meet & Greet"}
       </button>
       <p className="text-center text-xs text-forest-500">
         No obligation. We&apos;ll confirm details before anything is scheduled.

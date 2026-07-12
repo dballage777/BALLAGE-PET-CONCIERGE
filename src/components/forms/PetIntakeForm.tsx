@@ -1,23 +1,17 @@
 "use client";
 
-import { useState, type FormEvent } from "react";
-import { Field, Input, Textarea, Select, SuccessCard } from "./fields";
+import { Field, Input, Textarea, Select, SuccessCard, Honeypot, ErrorNote } from "./fields";
+import { useFormSubmit } from "./useFormSubmit";
 
 /**
  * Detailed pet intake questionnaire. This is the foundation of the future
  * pet-profile / client-portal architecture — the fields map cleanly to a
- * PetProfile record. Wire the handler to your database/CRM before launch.
+ * PetProfile record. Submissions POST to /api/submit and are emailed via Resend.
  */
 export default function PetIntakeForm() {
-  const [submitted, setSubmitted] = useState(false);
+  const { handleSubmit, submitting, success, error } = useFormSubmit("intake");
 
-  function handleSubmit(e: FormEvent<HTMLFormElement>) {
-    e.preventDefault();
-    // TODO: Persist intake as a pet profile record (future client portal).
-    setSubmitted(true);
-  }
-
-  if (submitted) {
+  if (success) {
     return (
       <SuccessCard
         title="Pet profile started"
@@ -28,6 +22,7 @@ export default function PetIntakeForm() {
 
   return (
     <form onSubmit={handleSubmit} className="space-y-8">
+      <Honeypot />
       {/* Owner */}
       <fieldset className="space-y-5">
         <legend className="font-display text-xl font-semibold text-forest-900">
@@ -120,11 +115,13 @@ export default function PetIntakeForm() {
         </div>
       </fieldset>
 
+      <ErrorNote message={error} />
       <button
         type="submit"
-        className="w-full rounded-full bg-forest-800 px-7 py-4 text-sm font-semibold text-cream shadow-soft transition-all hover:-translate-y-0.5 hover:bg-forest-700"
+        disabled={submitting}
+        className="w-full rounded-full bg-forest-800 px-7 py-4 text-sm font-semibold text-cream shadow-soft transition-all hover:-translate-y-0.5 hover:bg-forest-700 disabled:cursor-not-allowed disabled:opacity-60"
       >
-        Submit Pet Profile
+        {submitting ? "Submitting…" : "Submit Pet Profile"}
       </button>
     </form>
   );

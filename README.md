@@ -111,14 +111,31 @@ Content is data-driven and easy to edit without touching components:
 | Blog posts | `src/lib/blog.ts` |
 | Service areas / nav | `src/lib/site.ts` |
 
-### Wiring the forms
+### Forms & email delivery
 
-Forms currently validate and show a confirmation state client-side. Each has a
-clearly marked `// TODO` where you connect a backend:
+All forms (booking, contact, pet intake, newsletter) POST to a single Next.js
+route handler at **`src/app/api/submit/route.ts`**, which emails each
+submission to the business using **[Resend](https://resend.com)**. Features:
 
-- **Booking / Contact / Intake** → a Next.js route handler, [Resend](https://resend.com),
-  [Formspree](https://formspree.io), or your CRM.
-- **Newsletter** → Mailchimp, ConvertKit, or similar ESP.
+- Server-side validation of required fields + email format
+- Honeypot spam protection (hidden `company` field)
+- Loading, success, and error states in the UI
+- Reply-to set to the submitter's email so you can respond in one click
+
+**To receive leads, set `RESEND_API_KEY`** (see `.env.example`):
+
+1. Create a free account at [resend.com](https://resend.com) and copy an API key.
+2. Add `RESEND_API_KEY` to `.env.local` (dev) and to your host's env vars (prod).
+3. For production, verify your domain in Resend and set `CONTACT_FROM_EMAIL` to
+   a sender on that domain (e.g. `hello@ballagepetconcierge.com`). Set
+   `CONTACT_TO_EMAIL` to wherever leads should land.
+
+> Without the key, submissions still succeed and are logged server-side (so the
+> UX works in dev) — but no email is sent. Set the key before launch.
+
+**Newsletter:** currently emails signups like the other forms. To push straight
+into Mailchimp/ConvertKit instead, handle the `"newsletter"` type separately in
+the route handler.
 
 ### Google reviews
 
