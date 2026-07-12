@@ -210,6 +210,56 @@ export const addOns: PriceItem[] = [
 export const weeklyDiscountNote =
   "Save 10% when you book 5 or more recurring visits per week.";
 
+export const travelNote =
+  "Travel is free within 5 miles of Silver Creek High School (Sellersburg). Beyond that, a small $0.65/mile gas fee applies each way — to any driving, for all services. We'll always confirm it with you in advance.";
+
+export interface Bundle {
+  name: string;
+  price: string;
+  unit: string;
+  description: string;
+  badge?: string;
+  highlight?: boolean;
+}
+
+/**
+ * Recurring packages & bundles. These improve retention and cash flow and give
+ * clients a clear reason to commit. The New Puppy Starter is built for our
+ * breeder-referral channel.
+ */
+export const bundles: Bundle[] = [
+  {
+    name: "New Puppy Starter",
+    price: "$225",
+    unit: "2-week foundation",
+    badge: "Perfect for new puppies",
+    highlight: true,
+    description:
+      "Ten weekday puppy visits over two weeks to lock in potty routines, socialization, and good habits from day one — plus your Meet & Greet. A calm, confident start for your new best friend.",
+  },
+  {
+    name: "Weekly Walk Pack",
+    price: "$110",
+    unit: "5 weekday walks",
+    description:
+      "A 30-minute one-on-one walk every weekday — save versus booking individually, with the same great care.",
+  },
+  {
+    name: "Weekly Adventure Club",
+    price: "$80",
+    unit: "2 outings / week",
+    description:
+      "Two trail adventures a week for your active dog. They come home happy and tired — the good kind of tired.",
+  },
+  {
+    name: "Vacation Care Bundle",
+    price: "from $70 / day",
+    unit: "3 visits / day",
+    description:
+      "Three in-home visits a day while you travel — feeding, walks, potty breaks, and company — so your dog stays home and relaxed.",
+  },
+];
+
 export const launchOffer = {
   eyebrow: "Now Booking Our Founding Families",
   title: "Founding Family Offer",

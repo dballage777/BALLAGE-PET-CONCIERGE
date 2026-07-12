@@ -89,6 +89,7 @@ export const services: Service[] = [
       "Socialization and handling milestones tracked over time",
       "Positive-reinforcement approach on every visit",
       "Daily Paw Reports with photos, notes, and progress",
+      "Ask about our New Puppy Starter — a 2-week foundation package",
     ],
     icon: "puppy",
     accent: "gold",

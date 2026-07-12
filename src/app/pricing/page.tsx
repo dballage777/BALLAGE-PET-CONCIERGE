@@ -10,8 +10,10 @@ import { breadcrumbSchema } from "@/lib/schema";
 import {
   packages,
   addOns,
+  bundles,
   pricingIntro,
   weeklyDiscountNote,
+  travelNote,
   launchOffer,
 } from "@/lib/pricing";
 
@@ -76,9 +78,55 @@ export default function PricingPage() {
         </div>
       </section>
 
-      {/* Packages */}
+      {/* Packages & Bundles */}
       <Section className="bg-cream">
-        <div className="grid gap-8 lg:grid-cols-2">
+        <SectionHeading
+          eyebrow="Packages & Bundles"
+          title="Save more with recurring care"
+          description="Popular bundles for regular clients — better value, and a routine your dog can count on."
+        />
+        <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+          {bundles.map((bundle) => (
+            <div
+              key={bundle.name}
+              className={`flex flex-col rounded-2xl border p-6 shadow-card ${
+                bundle.highlight
+                  ? "border-gold-300 bg-gold-50 ring-1 ring-gold-300"
+                  : "border-forest-100 bg-white"
+              }`}
+            >
+              {bundle.badge && (
+                <span className="mb-3 inline-flex w-fit rounded-full bg-gold-500 px-3 py-1 text-[0.65rem] font-semibold uppercase tracking-wide text-forest-950">
+                  {bundle.badge}
+                </span>
+              )}
+              <h3 className="font-display text-lg font-semibold text-forest-900">
+                {bundle.name}
+              </h3>
+              <p className="mt-1">
+                <span className="font-display text-2xl font-semibold text-forest-900">
+                  {bundle.price}
+                </span>{" "}
+                <span className="text-xs text-forest-500">{bundle.unit}</span>
+              </p>
+              <p className="mt-3 flex-1 text-sm leading-relaxed text-forest-700/80">
+                {bundle.description}
+              </p>
+            </div>
+          ))}
+        </div>
+        <p className="mx-auto mt-8 max-w-2xl rounded-xl bg-white px-5 py-3 text-center text-sm text-forest-700 ring-1 ring-forest-100">
+          🚗 <span className="font-semibold">Travel:</span> {travelNote}
+        </p>
+      </Section>
+
+      {/* Per-service pricing */}
+      <Section className="bg-white">
+        <SectionHeading
+          eyebrow="À La Carte Pricing"
+          title="Every service, clearly priced"
+        />
+        <div className="mt-12 grid gap-8 lg:grid-cols-2">
           {packages.map((pkg) => (
             <div
               key={pkg.serviceName}
