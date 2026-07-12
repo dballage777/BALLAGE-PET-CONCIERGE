@@ -147,11 +147,16 @@ the Google Places / Business Profile API and map results onto the existing
 
 ## 🌐 Deployment
 
-### Vercel (recommended)
+📖 **Full step-by-step walkthrough: [`docs/DEPLOYMENT.md`](docs/DEPLOYMENT.md)** —
+covers Vercel deploy, environment variables, connecting your domain, and
+launch-day SEO setup (Search Console + Google Business Profile).
+
+### Vercel (recommended) — quick version
 
 1. Push this repo to GitHub.
 2. Import it at [vercel.com/new](https://vercel.com/new).
-3. Vercel auto-detects Next.js — no config needed. Click **Deploy**.
+3. Vercel auto-detects Next.js — no config needed. Add the `RESEND_API_KEY`
+   env var (see [Forms & email delivery](#forms--email-delivery)), then **Deploy**.
 4. Add your custom domain and update `site.url` in `src/lib/site.ts`.
 
 ### Any Node host
