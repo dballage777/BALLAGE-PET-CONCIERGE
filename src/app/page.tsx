@@ -3,6 +3,7 @@ import TrustBar from "@/components/home/TrustBar";
 import WhyBallage from "@/components/home/WhyBallage";
 import ServicesGrid from "@/components/home/ServicesGrid";
 import CalmCare from "@/components/home/CalmCare";
+import WhyVsRest from "@/components/home/WhyVsRest";
 import PeaceOfMind from "@/components/home/PeaceOfMind";
 import HowItWorks from "@/components/home/HowItWorks";
 import PawReports from "@/components/home/PawReports";
@@ -17,6 +18,7 @@ export default function HomePage() {
       <TrustBar />
       <ServicesGrid />
       <WhyBallage />
+      <WhyVsRest />
       <CalmCare />
       <PeaceOfMind />
       <HowItWorks />
