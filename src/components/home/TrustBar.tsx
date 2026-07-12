@@ -8,14 +8,14 @@ const items: { icon: IconName; title: string; sub: string }[] = [
     sub: "Trained for your pet's safety",
   },
   {
-    icon: "paw",
-    title: "Professional Care",
-    sub: "Insured, reliable & experienced",
+    icon: "heart",
+    title: "Insured & Bonded",
+    sub: "Your pet & home protected",
   },
   {
     icon: "report",
-    title: "Personalized Reports",
-    sub: "Updates after every visit",
+    title: "Daily Paw Reports",
+    sub: "Photos & notes every visit",
   },
   {
     icon: "location",

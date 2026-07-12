@@ -72,6 +72,7 @@ export const navLinks = [
     ],
   },
   { label: "Reviews", href: "/reviews" },
+  { label: "FAQ", href: "/faq" },
   { label: "Blog", href: "/blog" },
   { label: "Contact", href: "/contact" },
 ] as const;

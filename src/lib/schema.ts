@@ -74,6 +74,21 @@ export function serviceSchema(slug: string) {
   };
 }
 
+export function faqSchema(items: { question: string; answer: string }[]) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: items.map((f) => ({
+      "@type": "Question",
+      name: f.question,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: f.answer,
+      },
+    })),
+  };
+}
+
 export function breadcrumbSchema(items: { name: string; href: string }[]) {
   return {
     "@context": "https://schema.org",

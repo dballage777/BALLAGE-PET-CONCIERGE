@@ -64,7 +64,23 @@ export default function Header() {
           )}
         </ul>
 
-        <div className="hidden lg:block">
+        <div className="hidden items-center gap-4 lg:flex">
+          <a
+            href={site.phoneHref}
+            className="inline-flex items-center gap-1.5 text-sm font-semibold text-forest-800 transition-colors hover:text-gold-600"
+          >
+            <svg
+              className="h-4 w-4"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth={1.8}
+              aria-hidden
+            >
+              <path d="M6.5 4h3l1.5 4-2 1.5a12 12 0 0 0 5 5l1.5-2 4 1.5v3a2 2 0 0 1-2.2 2A16 16 0 0 1 4.5 6.2 2 2 0 0 1 6.5 4Z" />
+            </svg>
+            {site.phone}
+          </a>
           <Link
             href="/contact#booking"
             className="inline-flex items-center rounded-full bg-gold-500 px-6 py-2.5 text-sm font-semibold text-forest-950 shadow-soft transition-all hover:-translate-y-0.5 hover:bg-gold-400"
