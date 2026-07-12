@@ -3,6 +3,8 @@ import PageHero from "@/components/shared/PageHero";
 import Section from "@/components/shared/Section";
 import SectionHeading from "@/components/shared/SectionHeading";
 import CTASection from "@/components/shared/CTASection";
+import Caregivers from "@/components/about/Caregivers";
+import MeetThePack from "@/components/about/MeetThePack";
 import Icon from "@/components/shared/Icon";
 import JsonLd from "@/components/shared/JsonLd";
 import { breadcrumbSchema } from "@/lib/schema";
@@ -86,6 +88,10 @@ export default function AboutPage() {
           </div>
         </div>
       </Section>
+
+      <Caregivers />
+
+      <MeetThePack />
 
       <Section className="bg-cream">
         <SectionHeading
