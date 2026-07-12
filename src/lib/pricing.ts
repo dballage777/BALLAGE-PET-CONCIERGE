@@ -143,7 +143,7 @@ export const packages: PricePackage[] = [
       {
         name: "Round-Trip Vet Ride",
         price: "$45",
-        unit: "within 10 mi",
+        unit: "local",
         description:
           "Pickup, safe transport to the vet, and back home — with updates along the way.",
       },
@@ -153,12 +153,6 @@ export const packages: PricePackage[] = [
         unit: "up to 1 hr",
         description:
           "We stay through the appointment and relay the vet's notes (+$20 per extra 30 min).",
-      },
-      {
-        name: "Extra distance",
-        price: "+$1",
-        unit: "per mile over 10 mi",
-        description: "For appointments beyond our core 10-mile radius.",
       },
     ],
   },
@@ -182,6 +176,13 @@ export const packages: PricePackage[] = [
 ];
 
 export const addOns: PriceItem[] = [
+  {
+    name: "Travel (gas)",
+    price: "+$0.65",
+    unit: "per mile",
+    description:
+      "Applies to any driving, for all services. Free within 5 miles of Silver Creek High School (Sellersburg); beyond that, a small $0.65/mile gas fee applies each way.",
+  },
   {
     name: "Additional dog",
     price: "+$5",

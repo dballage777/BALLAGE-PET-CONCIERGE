@@ -30,22 +30,22 @@ export interface PackMember {
 
 export const caregivers: Caregiver[] = [
   {
-    name: "David Ballage",
+    name: "Heidi Ballage",
     role: "Founder & Dog Caregiver",
     bio: [
-      "David turned a lifelong love of dogs into Ballage Dog Care, built on one simple promise: treat every dog like one of his own.",
-      "Alongside his wife Heidi and their dogs Oz and Raussie, David is dedicated to giving Southern Indiana families the same peace of mind he'd want for his own pack — professional, compassionate care from someone who genuinely loves what he does.",
-    ],
-    photo: "/gallery/david.jpg",
-  },
-  {
-    name: "Heidi Ballage",
-    role: "Dog Caregiver",
-    bio: [
-      "Heidi brings warmth, patience, and a gentle touch to every visit.",
-      "Whether it's a bouncy puppy, an anxious rescue, or a gentle senior, she cares for each dog with the same love she gives Ozzypoo and Raussie Bear at home — unhurried, attentive, and full of heart.",
+      "Heidi turned a lifelong love of dogs into Ballage Dog Care, built on one simple promise: treat every dog like one of her own.",
+      "Alongside her husband David and their dogs Ozzypoo and Raussie Bear, Heidi is dedicated to giving Southern Indiana families the same peace of mind she'd want for her own pack — professional, compassionate care from someone who genuinely loves what she does.",
     ],
     photo: "/gallery/heidi.jpg",
+  },
+  {
+    name: "David Ballage",
+    role: "Dog Caregiver",
+    bio: [
+      "David brings warmth, patience, and a gentle touch to every visit.",
+      "Whether it's a bouncy puppy, an anxious rescue, or a gentle senior, he cares for each dog with the same love he gives Ozzypoo and Raussie Bear at home — unhurried, attentive, and full of heart.",
+    ],
+    photo: "/gallery/david.jpg",
   },
 ];
 
@@ -56,8 +56,8 @@ export const pack: PackMember[] = [
     breed: "Heeler–Lab mix",
     age: "9 years young",
     badge: "Fully recovered from double CCL surgery — June 2024",
-    videos: ["/videos/oz-play.mp4", "/videos/oz-hello.mp4"],
-    photo: "/gallery/oz-1.jpg",
+    videos: ["/videos/oz-play.mp4"],
+    photo: "/gallery/oz-portrait.jpg",
     bio: [
       "Meet Ozzypoo — our nine-year-old Heeler-Lab mix and the very heart of the Ballage household. If you've ever wondered what unconditional love looks like, it's Ozzypoo. He's what we lovingly call a “real boy” — the most affectionate dog we've ever known, and the inspiration behind the way we care for every dog.",
       "Ozzypoo is proof of what love and good care can do: he made a full recovery from double CCL surgery in June 2024, and he's back to doing all the things he loves. He's why Ballage Dog Care exists — because every dog deserves to be loved like family.",

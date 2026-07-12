@@ -11,25 +11,7 @@ function FeaturedDog({ dog }: { dog: PackMember }) {
       <div className="grid lg:grid-cols-2">
         {/* Media */}
         <div className="bg-forest-950 p-5 sm:p-6">
-          {dog.videos && dog.videos.length > 0 ? (
-            <div className="space-y-4">
-              <div className="overflow-hidden rounded-2xl bg-black">
-                <Video
-                  src={dog.videos[0]}
-                  className="mx-auto max-h-[460px] w-full object-contain"
-                />
-              </div>
-              {dog.videos[1] && (
-                <div className="overflow-hidden rounded-2xl bg-black">
-                  <Video
-                    src={dog.videos[1]}
-                    autoLoop
-                    className="mx-auto max-h-[220px] w-full object-contain"
-                  />
-                </div>
-              )}
-            </div>
-          ) : (
+          <div className="space-y-4">
             <div className="overflow-hidden rounded-2xl bg-forest-800">
               <ImageWithFallback
                 src={dog.photo}
@@ -42,7 +24,15 @@ function FeaturedDog({ dog }: { dog: PackMember }) {
                 }
               />
             </div>
-          )}
+            {dog.videos && dog.videos[0] && (
+              <div className="overflow-hidden rounded-2xl bg-black">
+                <Video
+                  src={dog.videos[0]}
+                  className="mx-auto max-h-[320px] w-full object-contain"
+                />
+              </div>
+            )}
+          </div>
         </div>
 
         {/* Story */}
