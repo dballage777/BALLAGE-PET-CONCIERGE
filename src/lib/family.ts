@@ -51,7 +51,7 @@ export const caregivers: Caregiver[] = [
 
 export const pack: PackMember[] = [
   {
-    name: "Oz Ballage",
+    name: "Ozzypoo",
     tagline: "The heart of the household",
     breed: "Heeler–Lab mix",
     age: "9 years young",
@@ -59,8 +59,8 @@ export const pack: PackMember[] = [
     videos: ["/videos/oz-play.mp4", "/videos/oz-hello.mp4"],
     photo: "/gallery/oz-1.jpg",
     bio: [
-      "Meet Oz — our nine-year-old Heeler-Lab mix and the very heart of the Ballage household. If you've ever wondered what unconditional love looks like, it's Oz. He's what we lovingly call a “real boy” — the most affectionate dog we've ever known, and the inspiration behind the way we care for every pet.",
-      "Oz is proof of what love and good care can do: he made a full recovery from double CCL surgery in June 2024, and he's back to doing all the things he loves. He's why Ballage Pet Concierge exists — because every pet deserves to be loved like family.",
+      "Meet Ozzypoo — our nine-year-old Heeler-Lab mix and the very heart of the Ballage household. If you've ever wondered what unconditional love looks like, it's Ozzypoo. He's what we lovingly call a “real boy” — the most affectionate dog we've ever known, and the inspiration behind the way we care for every pet.",
+      "Ozzypoo is proof of what love and good care can do: he made a full recovery from double CCL surgery in June 2024, and he's back to doing all the things he loves. He's why Ballage Pet Concierge exists — because every pet deserves to be loved like family.",
     ],
     loves: [
       "Long walks (and “talking to” every friend he meets)",
@@ -82,13 +82,24 @@ export const pack: PackMember[] = [
     ],
   },
   {
-    name: "Raussie Ballage",
-    tagline: "The other half of the pack",
+    name: "Raussie Bear",
+    tagline: "The newest member of the pack",
+    breed: "Beagle–Heeler mix",
+    age: "16 weeks young • Female",
+    badge: "The Ballage pack's newest puppy — 2026",
+    photo: "/gallery/raussie-1.jpg",
     bio: [
-      "Raussie is the other beloved member of the Ballage pack — and this sweet pup's full story is coming soon.",
-      "Check back to meet Raussie!",
+      "Meet Raussie Bear — the newest, waggliest member of the Ballage pack. At just sixteen weeks old, this Beagle-Heeler mix is a bundle of pure energy, personality, and puppy love.",
+      "She absolutely adores her big brother Ozzypoo — you'll often find her curled up on a blanket that smells like him — and she's never happier than when she's the center of attention or sprinting joyful circles around the yard.",
     ],
-    photo: "/gallery/raussie.jpg",
-    comingSoon: true,
+    loves: [
+      "“Nuggles” and night lights",
+      "Playing with her frisbee",
+      "Her frog plushie",
+      "Napping on a blanket that smells like Ozzypoo",
+      "Being the center of attention",
+      "Sprinting zoomies around the yard",
+      "Her big brother Ozzypoo",
+    ],
   },
 ];

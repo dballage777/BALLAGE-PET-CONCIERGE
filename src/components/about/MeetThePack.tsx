@@ -30,8 +30,17 @@ function FeaturedDog({ dog }: { dog: PackMember }) {
               )}
             </div>
           ) : (
-            <div className="grid aspect-square place-items-center rounded-2xl bg-forest-800 text-gold-400">
-              <Icon name="paw" className="h-16 w-16" />
+            <div className="overflow-hidden rounded-2xl bg-forest-800">
+              <ImageWithFallback
+                src={dog.photo}
+                alt={dog.name}
+                className="aspect-[4/5] w-full object-cover"
+                fallback={
+                  <div className="grid aspect-[4/5] w-full place-items-center text-gold-400">
+                    <Icon name="paw" className="h-16 w-16" />
+                  </div>
+                }
+              />
             </div>
           )}
         </div>
@@ -64,7 +73,7 @@ function FeaturedDog({ dog }: { dog: PackMember }) {
           {dog.loves && (
             <div className="mt-6">
               <p className="font-display text-lg font-semibold text-forest-900">
-                A few of Oz&apos;s favorite things
+                A few of {dog.name}&apos;s favorite things
               </p>
               <ul className="mt-3 grid gap-2 sm:grid-cols-2">
                 {dog.loves.map((love) => (
@@ -86,7 +95,7 @@ function FeaturedDog({ dog }: { dog: PackMember }) {
           {dog.commands && (
             <div className="mt-6 rounded-2xl bg-cream p-5">
               <p className="font-display text-lg font-semibold text-forest-900">
-                Words only Oz knows
+                Words only {dog.name} knows
               </p>
               <dl className="mt-3 space-y-2.5">
                 {dog.commands.map((c) => (

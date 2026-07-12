@@ -38,15 +38,16 @@ export default function HappyTails() {
         </div>
         <div>
           <p className="text-sm font-semibold uppercase tracking-[0.18em] text-gold-600">
-            Meet Oz
+            Meet Ozzypoo
           </p>
           <h3 className="mt-2 font-display text-2xl font-semibold text-forest-900">
             The reason we do this
           </h3>
           <p className="mt-3 leading-relaxed text-forest-700/85">
-            Oz is our nine-year-old Heeler-Lab mix and the heart of the Ballage
-            family — the “real boy” who inspires the way we care for every pet
-            we meet. Come say hello and meet the whole pack.
+            Ozzypoo is our nine-year-old Heeler-Lab mix and the heart of the
+            Ballage family — the “real boy” who inspires the way we care for
+            every pet we meet. Come say hello and meet the whole pack, including
+            our newest pup, Raussie Bear.
           </p>
           <Link
             href="/about#pack"

@@ -50,7 +50,7 @@ export default function Hero() {
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src="/gallery/oz-1.jpg"
-                alt="Oz, a nine-year-old Heeler-Lab mix, enjoying the sunshine"
+                alt="Ozzypoo, a nine-year-old Heeler-Lab mix, enjoying the sunshine"
                 className="aspect-[4/5] w-full object-cover"
               />
             </div>
