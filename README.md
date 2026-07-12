@@ -19,8 +19,10 @@ HTML sources live alongside them in [`docs/`](docs/)):
 
 - **[Getting Started & Growth Guide](docs/Ballage-Dog-Care-Getting-Started-Guide.pdf)**
   — how to launch with free Founding Family sessions, build photo/review proof,
-  partner with the Carepets vet, what makes Ballage different from competitors,
-  the research behind the site, and insurance/bonding costs.
+  and grow through two warm referral channels: the **Carepets vet** (existing
+  dog owners) and **local breeders** (new puppy owners, via the New Puppy
+  Starter offer). Also covers what makes Ballage different from competitors, the
+  research behind the site, and insurance/bonding costs.
 - **[Certifications & Credentials Guide](docs/Ballage-Dog-Care-Certifications-Guide.pdf)**
   — the licenses and certifications you need and the ones that give you an edge
   (Red Cross Pet First Aid, Fear Free, PSI/NAPPS), with real costs and priorities.
