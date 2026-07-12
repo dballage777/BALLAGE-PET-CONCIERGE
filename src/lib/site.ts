@@ -71,6 +71,7 @@ export const navLinks = [
       { label: "Final Journey Care™", href: "/services/final-journey-care" },
     ],
   },
+  { label: "Pricing", href: "/pricing" },
   { label: "Reviews", href: "/reviews" },
   { label: "FAQ", href: "/faq" },
   { label: "Blog", href: "/blog" },
