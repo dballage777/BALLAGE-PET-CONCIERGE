@@ -24,6 +24,10 @@ HTML sources live alongside them in [`docs/`](docs/)):
 - **[Certifications & Credentials Guide](docs/Ballage-Dog-Care-Certifications-Guide.pdf)**
   — the licenses and certifications you need and the ones that give you an edge
   (Red Cross Pet First Aid, Fear Free, PSI/NAPPS), with real costs and priorities.
+- **[New Puppy Welcome Packet](docs/Ballage-Dog-Care-New-Puppy-Welcome-Packet.pdf)**
+  — a printable one-page handout for breeder partners to tuck into puppy
+  go-home folders: a first-week checklist plus the New Puppy Starter offer.
+  *(Update the phone/website before printing.)*
 
 ---
 
