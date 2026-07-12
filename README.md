@@ -28,6 +28,26 @@ HTML sources live alongside them in [`docs/`](docs/)):
   — a printable one-page handout for breeder partners to tuck into puppy
   go-home folders: a first-week checklist plus the New Puppy Starter offer.
   *(Update the phone/website before printing.)*
+- **[Vet Partner Flyer & Referral Cards](docs/Ballage-Dog-Care-Carepets-Partner-Flyer.pdf)**
+  — a waiting-room flyer (leading with Vet Visit Rides) plus a page of cut-out
+  referral cards for the Carepets front desk. *(Display only once Carepets
+  agrees; update the phone/website before printing.)*
+
+---
+
+## 📖 Documentation
+
+All project docs, in one place:
+
+- **[README](README.md)** — this file: overview, features, structure, and setup.
+- **[Deployment Guide](docs/DEPLOYMENT.md)** — step-by-step Vercel deploy,
+  environment variables, custom domain, and launch-day SEO.
+- **[Research Resource Database](docs/RESEARCH-RESOURCES.md)** — curated market,
+  business, certification, and marketing research sources.
+- **Business & Growth Guides** (above) — HTML sources + PDFs in [`docs/`](docs/):
+  [Getting Started](docs/getting-started-guide.html) ·
+  [Certifications](docs/certifications-guide.html) ·
+  [New Puppy Welcome Packet](docs/new-puppy-welcome-packet.html)
 
 ---
 

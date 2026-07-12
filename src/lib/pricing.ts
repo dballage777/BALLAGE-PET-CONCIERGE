@@ -181,7 +181,7 @@ export const addOns: PriceItem[] = [
     price: "+$0.65",
     unit: "per mile",
     description:
-      "Applies to any driving, for all services. Free within 5 miles of Silver Creek High School (Sellersburg); beyond that, a small $0.65/mile gas fee applies each way.",
+      "Local travel is included across our service area (about 10 miles of Silver Creek High School, Sellersburg). Only longer drives beyond that add a small $0.65/mile gas fee each way — always confirmed in advance.",
   },
   {
     name: "Additional dog",
@@ -211,7 +211,7 @@ export const weeklyDiscountNote =
   "Save 10% when you book 5 or more recurring visits per week.";
 
 export const travelNote =
-  "Travel is free within 5 miles of Silver Creek High School (Sellersburg). Beyond that, a small $0.65/mile gas fee applies each way — to any driving, for all services. We'll always confirm it with you in advance.";
+  "Local travel is included across our service area — about 10 miles of Silver Creek High School (Sellersburg), which covers our core towns. Only longer drives beyond that (like far-side Louisville trips or extended Vet Rides) add a small $0.65/mile gas fee each way, always confirmed with you first.";
 
 export interface Bundle {
   name: string;

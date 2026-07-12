@@ -61,7 +61,7 @@ export const policies: Policy[] = [
     title: "Holidays & Travel",
     body: [
       "A holiday surcharge applies on major holidays, so your dog is cared for even on the big days.",
-      "A small gas fee applies to any driving beyond 5 miles of Silver Creek High School (Sellersburg) — always confirmed with you in advance.",
+      "Local travel is included across our service area. Only longer drives beyond about 10 miles of Silver Creek High School (Sellersburg) add a small $0.65/mile gas fee — always confirmed with you in advance.",
     ],
   },
   {
