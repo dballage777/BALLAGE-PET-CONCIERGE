@@ -1,24 +1,40 @@
-# Ballage Pet Concierge
+# Ballage Dog Care
 
-> **More than pet care. Peace of mind.**
+> **More than dog care. Peace of mind.**
 
-The official website for **Ballage Pet Concierge LLC** — a premium pet care
-company serving **New Albany, Clarksville, Sellersburg, Jeffersonville, Floyds
-Knobs**, and the greater **Southern Indiana / Louisville metro area**.
+The official website for **Ballage Dog Care** (legally Ballage Pet Concierge
+LLC) — a premium dog-care company serving **New Albany, Clarksville,
+Sellersburg, Jeffersonville, Floyds Knobs**, and the greater **Southern Indiana
+/ Louisville metro area**.
 
 Built as a fast, accessible, SEO-optimized, mobile-first site with **Next.js 14
 (App Router)**, **TypeScript**, and **Tailwind CSS**.
 
 ---
 
+## 📚 Business & Growth Guides
+
+Downloadable PDF guides for running and growing Ballage Dog Care (editable
+HTML sources live alongside them in [`docs/`](docs/)):
+
+- **[Getting Started & Growth Guide](docs/Ballage-Dog-Care-Getting-Started-Guide.pdf)**
+  — how to launch with free Founding Family sessions, build photo/review proof,
+  partner with the Carepets vet, what makes Ballage different from competitors,
+  the research behind the site, and insurance/bonding costs.
+- **[Certifications & Credentials Guide](docs/Ballage-Dog-Care-Certifications-Guide.pdf)**
+  — the licenses and certifications you need and the ones that give you an edge
+  (Red Cross Pet First Aid, Fear Free, PSI/NAPPS), with real costs and priorities.
+
+---
+
 ## ✨ Features
 
-- **Full marketing site** — Home, About, Services (overview + 4 detail pages),
-  Reviews, Contact, and Blog (index + article pages).
-- **Four concierge services** — Daily Pet Concierge, Puppy Foundations™, Senior
-  Companion Care™, and Final Journey Care™.
+- **Full marketing site** — Home, About, Services (overview + 6 detail pages),
+  Pricing, Reviews, FAQ, Policies, Contact, and Blog (index + article pages).
+- **Six dog-care services** — Daily Dog Care, Puppy Foundations™, Adventure
+  Outings™, Senior Companion Care™, Vet Visit Rides, and Final Journey Care™.
 - **Lead-capture forms** — Meet & Greet booking request, general contact, a
-  detailed pet intake questionnaire, and newsletter signup.
+  detailed dog intake questionnaire, and newsletter signup.
 - **Local SEO** — per-page metadata, `JSON-LD` structured data
   (`ProfessionalService`, `Service`, `BreadcrumbList`, `BlogPosting`,
   `AggregateRating`), dynamic `sitemap.xml`, and `robots.txt`.
