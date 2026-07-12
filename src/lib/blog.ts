@@ -10,11 +10,11 @@ export const blogPosts: BlogPost[] = [
     slug: "choosing-a-dog-sitter-new-albany-indiana",
     title: "How to Choose a Dog Sitter in New Albany, Indiana",
     excerpt:
-      "What to look for in a professional pet sitter — from certifications to daily reports — so you can leave home with true peace of mind.",
+      "What to look for in a professional dog sitter — from certifications to daily reports — so you can leave home with true peace of mind.",
     category: "Choosing Care",
     date: "2026-06-18",
     readingTime: "6 min read",
-    author: "Ballage Pet Concierge",
+    author: "Ballage Dog Care",
     keywords: [
       "dog sitter New Albany Indiana",
       "pet sitter Southern Indiana",
@@ -32,11 +32,11 @@ export const blogPosts: BlogPost[] = [
     slug: "senior-dog-care-southern-indiana",
     title: "Caring for a Senior Dog: A Southern Indiana Owner's Guide",
     excerpt:
-      "Aging pets need patience, routine, and gentle attention. Here's how to keep your senior dog comfortable and thriving at home.",
-    category: "Senior Pets",
+      "Aging dogs need patience, routine, and gentle attention. Here's how to keep your senior dog comfortable and thriving at home.",
+    category: "Senior Dogs",
     date: "2026-05-29",
     readingTime: "7 min read",
-    author: "Ballage Pet Concierge",
+    author: "Ballage Dog Care",
     keywords: [
       "senior dog care Southern Indiana",
       "senior pet care",
@@ -52,13 +52,13 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "why-in-home-pet-care-beats-boarding",
-    title: "Why In-Home Pet Care Beats Boarding for Louisville-Area Pets",
+    title: "Why In-Home Dog Care Beats Boarding for Louisville-Area Dogs",
     excerpt:
-      "When you travel, your pet is happiest at home. Here's why in-home vacation care is the calmer, safer choice.",
+      "When you travel, your dog is happiest at home. Here's why in-home vacation care is the calmer, safer choice.",
     category: "Vacation Care",
     date: "2026-04-15",
     readingTime: "5 min read",
-    author: "Ballage Pet Concierge",
+    author: "Ballage Dog Care",
     keywords: [
       "dog walking Louisville",
       "pet sitter Clarksville Indiana",

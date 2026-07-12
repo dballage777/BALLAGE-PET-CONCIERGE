@@ -32,7 +32,7 @@ export const pricingIntro =
 
 export const packages: PricePackage[] = [
   {
-    serviceName: "Daily Pet Concierge",
+    serviceName: "Daily Dog Care",
     href: "/services/dog-walking",
     icon: "paw",
     accent: "forest",
@@ -53,7 +53,7 @@ export const packages: PricePackage[] = [
         name: "Extended Walk or Visit",
         price: "$30",
         unit: "45 min",
-        description: "More time to walk, play, and settle your pet.",
+        description: "More time to walk, play, and settle your dog.",
       },
       {
         name: "Vacation Care Visit",
@@ -91,6 +91,29 @@ export const packages: PricePackage[] = [
     ],
   },
   {
+    serviceName: "Adventure Outings",
+    trademark: true,
+    href: "/services/adventure-outings",
+    icon: "leaf",
+    accent: "forest",
+    note: "Our signature service",
+    items: [
+      {
+        name: "Trail Adventure",
+        price: "$45",
+        unit: "60 min",
+        description:
+          "A one-on-one hike or “sniffari,” including safe transport to and from the trail.",
+      },
+      {
+        name: "Weekly Adventure Club",
+        price: "$80",
+        unit: "2 outings / week",
+        description: "Two adventures a week for your active dog — save vs. per-outing.",
+      },
+    ],
+  },
+  {
     serviceName: "Senior Companion Care",
     trademark: true,
     href: "/services/senior-care",
@@ -108,6 +131,34 @@ export const packages: PricePackage[] = [
         price: "$34",
         unit: "45–60 min",
         description: "Unhurried time with mobility support and a watchful eye.",
+      },
+    ],
+  },
+  {
+    serviceName: "Vet Visit Rides",
+    href: "/services/vet-rides",
+    icon: "location",
+    accent: "gold",
+    items: [
+      {
+        name: "Round-Trip Vet Ride",
+        price: "$45",
+        unit: "within 10 mi",
+        description:
+          "Pickup, safe transport to the vet, and back home — with updates along the way.",
+      },
+      {
+        name: "Ride & Stay",
+        price: "$65",
+        unit: "up to 1 hr",
+        description:
+          "We stay through the appointment and relay the vet's notes (+$20 per extra 30 min).",
+      },
+      {
+        name: "Extra distance",
+        price: "+$1",
+        unit: "per mile over 10 mi",
+        description: "For appointments beyond our core 10-mile radius.",
       },
     ],
   },
@@ -132,16 +183,16 @@ export const packages: PricePackage[] = [
 
 export const addOns: PriceItem[] = [
   {
-    name: "Additional pet",
+    name: "Additional dog",
     price: "+$5",
     unit: "per visit",
-    description: "Care for more than one pet in the same household.",
+    description: "Care for more than one dog in the same household.",
   },
   {
     name: "Holiday visits",
     price: "+$10",
     unit: "per visit",
-    description: "Major holidays, so your pet is loved even on the big days.",
+    description: "Major holidays, so your dog is loved even on the big days.",
   },
   {
     name: "Medication administration",

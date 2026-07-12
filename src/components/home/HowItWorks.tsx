@@ -5,12 +5,12 @@ const steps = [
   {
     number: "1",
     title: "Meet",
-    body: "We start with a complimentary Meet & Greet — in your home, on your pet's turf. We learn their routine, personality, and needs, and you get to know us.",
+    body: "We start with a complimentary Meet & Greet — in your home, on your dog's turf. We learn their routine, personality, and needs, and you get to know us.",
   },
   {
     number: "2",
     title: "Plan",
-    body: "Together we build a personalized care plan: the right visits, the right pace, and every detail that keeps your pet comfortable and happy.",
+    body: "Together we build a personalized care plan: the right visits, the right pace, and every detail that keeps your dog comfortable and happy.",
   },
   {
     number: "3",
@@ -28,7 +28,7 @@ export default function HowItWorks() {
         description={
           <span className="text-cream/75">
             Getting started is easy. We do the work of earning your trust — and
-            your pet&apos;s.
+            your dog&apos;s.
           </span>
         }
       />

@@ -8,9 +8,9 @@ import { breadcrumbSchema } from "@/lib/schema";
 import { blogPosts, formatDate } from "@/lib/blog";
 
 export const metadata: Metadata = {
-  title: "Pet Care Blog — Tips for Southern Indiana Pet Owners",
+  title: "Dog Care Blog — Tips for Southern Indiana Dog Owners",
   description:
-    "Expert pet care advice for Southern Indiana and Louisville-area families: choosing a dog sitter, senior dog care, in-home pet care, and more.",
+    "Expert dog care advice for Southern Indiana and Louisville-area families: choosing a dog sitter, senior dog care, in-home dog care, and more.",
   alternates: { canonical: "/blog" },
 };
 
@@ -26,9 +26,9 @@ export default function BlogPage() {
         ])}
       />
       <PageHero
-        eyebrow="The Concierge Journal"
-        title="Thoughtful pet care advice"
-        subtitle="Guidance, tips, and stories to help Southern Indiana families care for the pets they love — at every stage of life."
+        eyebrow="The Ballage Journal"
+        title="Thoughtful dog care advice"
+        subtitle="Guidance, tips, and stories to help Southern Indiana families care for the dogs they love — at every stage of life."
       />
 
       <Section className="bg-cream">

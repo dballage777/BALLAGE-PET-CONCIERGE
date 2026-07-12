@@ -92,7 +92,7 @@ export default function Footer() {
             </div>
             <div className="mt-6">
               <p className="mb-3 text-sm text-cream/70">
-                Get seasonal pet-care tips and local updates.
+                Get seasonal dog-care tips and local updates.
               </p>
               <NewsletterSignup variant="footer" />
             </div>

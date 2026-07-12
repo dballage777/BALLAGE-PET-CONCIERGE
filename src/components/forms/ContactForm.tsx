@@ -38,7 +38,7 @@ export default function ContactForm() {
           id="c-message"
           name="message"
           required
-          placeholder="Tell us a little about your pet and what you're looking for…"
+          placeholder="Tell us a little about your dog and what you're looking for…"
         />
       </Field>
       <ErrorNote message={error} />

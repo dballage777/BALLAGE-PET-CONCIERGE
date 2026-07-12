@@ -14,8 +14,8 @@ export default function PetIntakeForm() {
   if (success) {
     return (
       <SuccessCard
-        title="Pet profile started"
-        message="Thank you for the details! We'll review your pet's profile and follow up to finalize the care plan."
+        title="Dog profile started"
+        message="Thank you for the details! We'll review your dog's profile and follow up to finalize the care plan."
       />
     );
   }
@@ -46,17 +46,17 @@ export default function PetIntakeForm() {
         </div>
       </fieldset>
 
-      {/* Pet basics */}
+      {/* Dog basics */}
       <fieldset className="space-y-5">
         <legend className="font-display text-xl font-semibold text-forest-900">
-          About Your Pet
+          About Your Dog
         </legend>
         <div className="grid gap-5 sm:grid-cols-2">
-          <Field label="Pet's name" htmlFor="i-pet" required>
+          <Field label="Dog's name" htmlFor="i-pet" required>
             <Input id="i-pet" name="petName" required />
           </Field>
-          <Field label="Species / breed" htmlFor="i-breed">
-            <Input id="i-breed" name="breed" placeholder="e.g. Dog — Labrador mix" />
+          <Field label="Breed" htmlFor="i-breed">
+            <Input id="i-breed" name="breed" placeholder="e.g. Labrador mix" />
           </Field>
         </div>
         <div className="grid gap-5 sm:grid-cols-3">
@@ -71,7 +71,7 @@ export default function PetIntakeForm() {
               <option value="" disabled>
                 Select
               </option>
-              <option>Puppy / Kitten</option>
+              <option>Puppy</option>
               <option>Adult</option>
               <option>Senior</option>
             </Select>
@@ -121,7 +121,7 @@ export default function PetIntakeForm() {
         disabled={submitting}
         className="w-full rounded-full bg-forest-800 px-7 py-4 text-sm font-semibold text-cream shadow-soft transition-all hover:-translate-y-0.5 hover:bg-forest-700 disabled:cursor-not-allowed disabled:opacity-60"
       >
-        {submitting ? "Submitting…" : "Submit Pet Profile"}
+        {submitting ? "Submitting…" : "Submit Dog Profile"}
       </button>
     </form>
   );

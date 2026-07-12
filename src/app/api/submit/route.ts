@@ -58,7 +58,7 @@ export async function POST(request: Request) {
   const toEmail = process.env.CONTACT_TO_EMAIL || site.email;
   // Resend's onboarding sender works out of the box for testing; swap to a
   // verified domain sender (e.g. hello@ballagepetconcierge.com) in production.
-  const fromEmail = process.env.CONTACT_FROM_EMAIL || "Ballage Pet Concierge <onboarding@resend.dev>";
+  const fromEmail = process.env.CONTACT_FROM_EMAIL || "Ballage Dog Care <onboarding@resend.dev>";
 
   if (!apiKey) {
     console.warn(

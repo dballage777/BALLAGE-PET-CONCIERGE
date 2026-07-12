@@ -22,7 +22,7 @@ export default function PeaceOfMind() {
         </h2>
         <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-cream/85">
           That little pull at your heart when you walk out the door? It means
-          you&apos;re a wonderful pet parent. You shouldn&apos;t have to choose
+          you&apos;re a wonderful dog parent. You shouldn&apos;t have to choose
           between your day and your dog&apos;s happiness — and with Ballage, you
           don&apos;t. While you&apos;re away, they&apos;re walked, loved, and
           cared for like family, and you see every happy moment through their

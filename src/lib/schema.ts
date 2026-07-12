@@ -34,14 +34,15 @@ export function localBusinessSchema() {
     sameAs: [site.social.facebook, site.social.instagram],
     knowsAbout: [
       "Dog Walking",
-      "Pet Sitting",
+      "Dog Sitting",
       "Puppy Socialization",
-      "Senior Pet Care",
-      "End of Life Pet Support",
+      "Dog Hiking & Adventures",
+      "Senior Dog Care",
+      "Dog Transportation to Vet",
     ],
     hasOfferCatalog: {
       "@type": "OfferCatalog",
-      name: "Pet Concierge Services",
+      name: "Dog Care Services",
       itemListElement: services.map((s) => ({
         "@type": "Offer",
         itemOffered: {

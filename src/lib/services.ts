@@ -3,16 +3,16 @@ import type { Service } from "@/types";
 export const services: Service[] = [
   {
     slug: "dog-walking",
-    name: "Daily Pet Concierge",
+    name: "Daily Dog Care",
     href: "/services/dog-walking",
     tagline: "Everyday care, elevated.",
     shortDescription:
-      "Dog walking, drop-in visits, and vacation care delivered with the attention your family member deserves.",
-    heroHeadline: "Daily Pet Concierge",
+      "Dog walking, drop-in visits, and vacation care delivered with the attention your best friend deserves.",
+    heroHeadline: "Daily Dog Care",
     heroSubcopy:
-      "Reliable dog walking, drop-in visits, and vacation care across Southern Indiana — thoughtfully personalized to your pet's routine.",
+      "Reliable dog walking, drop-in visits, and vacation care across Southern Indiana — thoughtfully personalized to your dog's routine.",
     intro:
-      "Your pet thrives on routine, comfort, and connection. Our Daily Pet Concierge service keeps their days steady and joyful while you're away — whether that's a midday walk, a check-in while you travel, or full vacation care in the home they already love.",
+      "Your dog thrives on routine, exercise, and connection. Our Daily Dog Care keeps their days happy and steady while you're away — whether that's a midday walk, a check-in while you travel, or full vacation care in the home they already love.",
     features: [
       {
         title: "Dog Walking",
@@ -22,23 +22,23 @@ export const services: Service[] = [
       {
         title: "Drop-In Visits",
         description:
-          "Feeding, fresh water, litter and potty breaks, medication, playtime, and a tidy-up so your home stays as calm as your pet.",
+          "Feeding, fresh water, potty breaks, medication, playtime, and a tidy-up so your home stays as calm as your dog.",
       },
       {
         title: "Vacation Care",
         description:
-          "Multiple daily visits while you travel, so your pet stays in familiar surroundings instead of a stressful boarding kennel.",
+          "Multiple daily visits while you travel, so your dog stays in familiar surroundings instead of a stressful boarding kennel.",
       },
     ],
     idealFor: [
       "Busy professionals who want their dog walked midday",
-      "Cat families needing dependable drop-in care",
-      "Anyone traveling who wants their pet to stay home",
+      "Families needing dependable drop-in care",
+      "Anyone traveling who wants their dog to stay home",
     ],
     includes: [
       "Personalized care plan built at your Meet & Greet",
       "Photo and video updates after every visit",
-      "GPS-tracked walks and detailed activity notes",
+      "Walks paced to your dog with detailed activity notes",
       "Mail, plants, and light home checks on request",
     ],
     icon: "paw",
@@ -94,18 +94,67 @@ export const services: Service[] = [
     accent: "gold",
   },
   {
+    slug: "adventure-outings",
+    name: "Adventure Outings",
+    trademark: true,
+    href: "/services/adventure-outings",
+    tagline: "Because a walk around the block isn't always enough.",
+    shortDescription:
+      "Hikes, trail “sniffaris,” and one-on-one adventures that give active adult dogs the stimulation and exercise they crave.",
+    heroHeadline: "Adventure Outings™",
+    heroSubcopy:
+      "Beyond the neighborhood walk — real adventures for adult dogs, from trail hikes to sniff-driven explorations, all one-on-one and tailored to your dog.",
+    intro:
+      "Adult dogs in their prime need more than a lap around the block. Adventure Outings™ is our signature service for active grown-up dogs — a genuinely different experience in Southern Indiana. We take your dog somewhere new and let them be a dog: hiking trails, exploring, sniffing, and burning happy energy, then coming home tired and content.",
+    features: [
+      {
+        title: "Trail Hikes",
+        description:
+          "One-on-one hikes on dog-friendly local trails — fresh scenery, real exercise, and a change of pace from the daily walk.",
+      },
+      {
+        title: "“Sniffari” Explorations",
+        description:
+          "Slow, sniff-led adventures that let your dog use their nose and decompress — enrichment that tires the mind, not just the body.",
+      },
+      {
+        title: "Decompression & Play",
+        description:
+          "Time to explore, splash, and play safely off the usual route, matched to your dog's fitness and confidence.",
+      },
+      {
+        title: "Adventure Recap",
+        description:
+          "Photos, videos, and a story from the trail after every outing — you'll love seeing where they went.",
+      },
+    ],
+    idealFor: [
+      "High-energy adult dogs who need more than a walk",
+      "Working owners whose dogs crave real stimulation",
+      "Dogs who love the outdoors and new places",
+    ],
+    includes: [
+      "One-on-one outing tailored to your dog's fitness & confidence",
+      "Safe transport to and from the adventure",
+      "Fresh water, gear, and cleanup handled",
+      "Daily Paw Report with photos and video from the trail",
+    ],
+    icon: "leaf",
+    accent: "forest",
+  },
+  {
     slug: "senior-care",
     name: "Senior Companion Care",
     trademark: true,
     href: "/services/senior-care",
     tagline: "Comfort, dignity, and gentle attention.",
     shortDescription:
-      "Mobility support, medication reminders, and gentle companionship tailored to the needs of senior pets.",
+      "Mobility support, medication reminders, and gentle companionship tailored to the needs of senior dogs.",
     heroHeadline: "Senior Companion Care™",
     heroSubcopy:
-      "Patient, gentle care for senior pets — with mobility support, medication reminders, and the unhurried companionship they've earned.",
+      "Patient, gentle care for senior dogs — with mobility support, medication reminders, and the unhurried companionship they've earned.",
     intro:
-      "Senior pets deserve to age comfortably in the home they know. Senior Companion Care™ is built around their pace: slower walks, help with mobility, careful attention to medication and routine, and the steady companionship that keeps their days warm.",
+      "Senior dogs deserve to age comfortably in the home they know. Senior Companion Care™ is built around their pace: slower walks, help with mobility, careful attention to medication and routine, and the steady companionship that keeps their days warm.",
     features: [
       {
         title: "Gentle Companionship",
@@ -115,7 +164,7 @@ export const services: Service[] = [
       {
         title: "Mobility Support",
         description:
-          "Assistance with stairs, gentle short walks, and help getting up and settled for pets who move more slowly now.",
+          "Assistance with stairs, gentle short walks, and help getting up and settled for dogs who move more slowly now.",
       },
       {
         title: "Medication Reminders",
@@ -129,8 +178,8 @@ export const services: Service[] = [
       },
     ],
     idealFor: [
-      "Senior dogs and cats who do best staying home",
-      "Pets needing medication kept on a strict schedule",
+      "Senior dogs who do best staying home",
+      "Dogs needing medication kept on a strict schedule",
       "Families wanting extra eyes on an aging companion",
     ],
     includes: [
@@ -143,23 +192,71 @@ export const services: Service[] = [
     accent: "forest",
   },
   {
+    slug: "vet-rides",
+    name: "Vet Visit Rides",
+    href: "/services/vet-rides",
+    tagline: "We'll get them there — and bring them home.",
+    shortDescription:
+      "Safe, caring transportation to and from vet appointments, so your dog never misses care even when you can't drive.",
+    heroHeadline: "Vet Visit Rides",
+    heroSubcopy:
+      "Can't make the vet appointment? We'll safely drive your dog there and back — calm, careful, and with updates the whole way.",
+    intro:
+      "Life gets busy, and not everyone can take time off for every vet visit. Our Vet Visit Rides get your dog to and from their appointment safely and calmly, whether you need a simple round-trip ride or someone to stay with them through the visit. It's one less thing to worry about — and one more way we keep your dog's care on track.",
+    features: [
+      {
+        title: "Round-Trip Rides",
+        description:
+          "We pick your dog up, drive them to the vet, and bring them safely home — secured, calm, and cared for.",
+      },
+      {
+        title: "Ride & Stay",
+        description:
+          "Prefer someone with them? We'll stay through the appointment, relay the vet's notes, and keep you posted.",
+      },
+      {
+        title: "Safe & Secure",
+        description:
+          "Proper restraint, a clean vehicle, and gentle handling for anxious or senior dogs.",
+      },
+      {
+        title: "Real-Time Updates",
+        description:
+          "Photos and messages so you know exactly where your dog is and how the visit went.",
+      },
+    ],
+    idealFor: [
+      "Working owners who can't get away for appointments",
+      "Seniors or anyone without reliable transportation",
+      "Multi-dog households juggling schedules",
+    ],
+    includes: [
+      "Safe pickup and drop-off within our service area",
+      "Secure restraint and gentle, patient handling",
+      "Updates and the vet's notes relayed to you",
+      "Optional stay-through-appointment support",
+    ],
+    icon: "location",
+    accent: "gold",
+  },
+  {
     slug: "final-journey-care",
     name: "Final Journey Care",
     trademark: true,
     href: "/services/final-journey-care",
     tagline: "Helping families create peaceful, meaningful final moments.",
     shortDescription:
-      "Compassionate comfort visits, last adventures, transportation, and family support during a beloved pet's final chapter.",
+      "Compassionate comfort visits, last adventures, transportation, and family support during a beloved dog's final chapter.",
     heroHeadline: "Final Journey Care™",
     heroSubcopy:
-      "Tender, unhurried support that helps families create peaceful, meaningful final moments with the pets they love.",
+      "Tender, unhurried support that helps families create peaceful, meaningful final moments with the dogs they love.",
     intro:
       "When a beloved companion nears the end of their journey, every moment matters. Final Journey Care™ surrounds your family with gentle, practical support — comfort visits, cherished last adventures, transportation when you need it, and a caring presence for the whole family.",
     features: [
       {
         title: "Comfort Visits",
         description:
-          "Quiet, gentle time focused entirely on your pet's ease — soft companionship and attentive comfort in their final chapter.",
+          "Quiet, gentle time focused entirely on your dog's ease — soft companionship and attentive comfort in their final chapter.",
       },
       {
         title: "Last Adventures",
@@ -169,7 +266,7 @@ export const services: Service[] = [
       {
         title: "Transportation Support",
         description:
-          "Careful, comforting transportation to appointments so you can stay present with your pet.",
+          "Careful, comforting transportation to appointments so you can stay present with your dog.",
       },
       {
         title: "Family Support",
@@ -178,7 +275,7 @@ export const services: Service[] = [
       },
     ],
     idealFor: [
-      "Families navigating a pet's final chapter",
+      "Families navigating a dog's final chapter",
       "Those wanting meaningful moments over their last weeks",
       "Anyone who needs a gentle, steady hand nearby",
     ],
@@ -196,3 +293,12 @@ export const services: Service[] = [
 export function getService(slug: string): Service | undefined {
   return services.find((s) => s.slug === slug);
 }
+
+/**
+ * Services featured on the homepage grid. Final Journey Care is intentionally
+ * excluded here so end-of-life care is available (via Services/nav) without
+ * dominating the homepage.
+ */
+export const featuredServices = services.filter(
+  (s) => s.slug !== "final-journey-care"
+);

@@ -11,7 +11,7 @@ const features: { icon: IconName; title: string; body: string }[] = [
   {
     icon: "paw",
     title: "Videos",
-    body: "Short clips of playtime and walks so you can see your pet's personality in action while you're away.",
+    body: "Short clips of playtime and walks so you can see your dog's personality in action while you're away.",
   },
   {
     icon: "report",
@@ -21,7 +21,7 @@ const features: { icon: IconName; title: string; body: string }[] = [
   {
     icon: "heart",
     title: "Personal Notes",
-    body: "A caring, human note about how your pet is doing — their mood, their appetite, and the little things that matter.",
+    body: "A caring, human note about how your dog is doing — their mood, their appetite, and the little things that matter.",
   },
 ];
 
@@ -39,7 +39,7 @@ export default function PawReports() {
           <p className="mt-6 text-lg leading-relaxed text-forest-700/80">
             After every single visit, you receive a Daily Paw Report — a warm,
             detailed update that turns time apart into total reassurance. It&apos;s
-            the difference between hoping your pet is okay and knowing it.
+            the difference between hoping your dog is okay and knowing it.
           </p>
           <div className="mt-8 grid gap-5 sm:grid-cols-2">
             {features.map((f) => (

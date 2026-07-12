@@ -14,7 +14,7 @@ export default function ServiceArea({
       <SectionHeading
         eyebrow="Service Area"
         title="Proudly serving Southern Indiana"
-        description={`Local, dependable pet care across ${site.areaLabel}. Not sure if we reach you? Just ask — we're happy to help.`}
+        description={`Local, dependable dog care across ${site.areaLabel}. Not sure if we reach you? Just ask — we're happy to help.`}
       />
       <div className="mt-14 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
         {serviceAreas.map((area) => (

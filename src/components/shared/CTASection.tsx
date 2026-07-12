@@ -7,8 +7,8 @@ interface CTAProps {
 }
 
 export default function CTASection({
-  title = "Ready to give your pet the care they deserve?",
-  subtitle = "Start with a complimentary Meet & Greet. No obligation — just a conversation about your pet and how we can help.",
+  title = "Ready to give your dog the care they deserve?",
+  subtitle = "Start with a complimentary Meet & Greet. No obligation — just a conversation about your dog and how we can help.",
 }: CTAProps) {
   return (
     <section className="bg-gold-500">

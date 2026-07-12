@@ -22,17 +22,17 @@ const fraunces = Fraunces({
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
   title: {
-    default: `${site.name} | Premium Pet Care in Southern Indiana`,
+    default: `${site.name} | Premium Dog Care in Southern Indiana`,
     template: `%s | ${site.name}`,
   },
   description: site.description,
   keywords: [
     "dog sitter New Albany Indiana",
-    "pet sitter Clarksville Indiana",
+    "dog sitter Clarksville Indiana",
     "senior dog care Southern Indiana",
     "dog walking Louisville",
-    "pet concierge Southern Indiana",
-    "in-home pet care Jeffersonville",
+    "dog walker Southern Indiana",
+    "in-home dog care Jeffersonville",
     "puppy care Sellersburg Indiana",
   ],
   authors: [{ name: site.legalName }],
@@ -46,12 +46,12 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: site.url,
     siteName: site.name,
-    title: `${site.name} | Premium Pet Care in Southern Indiana`,
+    title: `${site.name} | Premium Dog Care in Southern Indiana`,
     description: site.description,
   },
   twitter: {
     card: "summary_large_image",
-    title: `${site.name} | Premium Pet Care in Southern Indiana`,
+    title: `${site.name} | Premium Dog Care in Southern Indiana`,
     description: site.description,
   },
   robots: {

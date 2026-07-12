@@ -31,19 +31,19 @@ export interface PackMember {
 export const caregivers: Caregiver[] = [
   {
     name: "David Ballage",
-    role: "Founder & Pet Caregiver",
+    role: "Founder & Dog Caregiver",
     bio: [
-      "David turned a lifelong love of animals into Ballage Pet Concierge, built on one simple promise: treat every pet like one of his own.",
+      "David turned a lifelong love of dogs into Ballage Dog Care, built on one simple promise: treat every dog like one of his own.",
       "Alongside his wife Heidi and their dogs Oz and Raussie, David is dedicated to giving Southern Indiana families the same peace of mind he'd want for his own pack — professional, compassionate care from someone who genuinely loves what he does.",
     ],
     photo: "/gallery/david.jpg",
   },
   {
     name: "Heidi Ballage",
-    role: "Pet Caregiver",
+    role: "Dog Caregiver",
     bio: [
       "Heidi brings warmth, patience, and a gentle touch to every visit.",
-      "Whether it's a bouncy puppy, an anxious rescue, or a gentle senior, she cares for each pet with the same love she gives Oz and Raussie at home — unhurried, attentive, and full of heart.",
+      "Whether it's a bouncy puppy, an anxious rescue, or a gentle senior, she cares for each dog with the same love she gives Ozzypoo and Raussie Bear at home — unhurried, attentive, and full of heart.",
     ],
     photo: "/gallery/heidi.jpg",
   },
@@ -59,8 +59,8 @@ export const pack: PackMember[] = [
     videos: ["/videos/oz-play.mp4", "/videos/oz-hello.mp4"],
     photo: "/gallery/oz-1.jpg",
     bio: [
-      "Meet Ozzypoo — our nine-year-old Heeler-Lab mix and the very heart of the Ballage household. If you've ever wondered what unconditional love looks like, it's Ozzypoo. He's what we lovingly call a “real boy” — the most affectionate dog we've ever known, and the inspiration behind the way we care for every pet.",
-      "Ozzypoo is proof of what love and good care can do: he made a full recovery from double CCL surgery in June 2024, and he's back to doing all the things he loves. He's why Ballage Pet Concierge exists — because every pet deserves to be loved like family.",
+      "Meet Ozzypoo — our nine-year-old Heeler-Lab mix and the very heart of the Ballage household. If you've ever wondered what unconditional love looks like, it's Ozzypoo. He's what we lovingly call a “real boy” — the most affectionate dog we've ever known, and the inspiration behind the way we care for every dog.",
+      "Ozzypoo is proof of what love and good care can do: he made a full recovery from double CCL surgery in June 2024, and he's back to doing all the things he loves. He's why Ballage Dog Care exists — because every dog deserves to be loved like family.",
     ],
     loves: [
       "Long walks (and “talking to” every friend he meets)",

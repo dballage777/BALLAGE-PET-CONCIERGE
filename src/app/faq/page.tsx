@@ -10,7 +10,7 @@ import { faqs, type FaqItem } from "@/lib/faq";
 export const metadata: Metadata = {
   title: "Frequently Asked Questions",
   description:
-    "Answers about insurance, safety, Meet & Greets, daily updates, and how Ballage Pet Concierge cares for pets across New Albany, Clarksville & Southern Indiana.",
+    "Answers about insurance, safety, Meet & Greets, daily updates, and how Ballage Dog Care cares for dogs across New Albany, Clarksville & Southern Indiana.",
   alternates: { canonical: "/faq" },
 };
 
@@ -34,7 +34,7 @@ export default function FaqPage() {
       <PageHero
         eyebrow="Questions & Answers"
         title="Everything you want to know"
-        subtitle="Trusting someone with your family member is a big decision. Here are honest answers to the questions pet owners ask us most."
+        subtitle="Trusting someone with your family member is a big decision. Here are honest answers to the questions dog owners ask us most."
       />
 
       <Section className="bg-cream">
@@ -56,7 +56,7 @@ export default function FaqPage() {
 
       <CTASection
         title="Still have a question?"
-        subtitle="We'd love to hear from you. Reach out anytime — there's no such thing as too many questions when it comes to your pet."
+        subtitle="We'd love to hear from you. Reach out anytime — there's no such thing as too many questions when it comes to your dog."
       />
     </>
   );

@@ -25,7 +25,7 @@ export default function Hero() {
             {site.areaLabel}
           </p>
           <h1 className="mt-6 font-display text-4xl font-semibold leading-[1.1] tracking-tight text-cream sm:text-5xl lg:text-6xl">
-            Professional Pet Care Through Every Stage of Life.
+            Professional Dog Care Through Every Stage of Life.
           </h1>
           <p className="mt-6 max-w-xl text-lg leading-relaxed text-cream/80">
             {site.description}

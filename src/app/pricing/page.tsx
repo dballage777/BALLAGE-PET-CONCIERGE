@@ -184,13 +184,13 @@ export default function PricingPage() {
 
         <p className="mx-auto mt-10 max-w-2xl text-center text-sm text-forest-600/80">
           Prices are starting rates for the Southern Indiana &amp; Louisville
-          metro area. Your exact plan is tailored to your pet&apos;s needs at
+          metro area. Your exact plan is tailored to your dog&apos;s needs at
           your free Meet &amp; Greet — no obligation, no surprises.
         </p>
       </Section>
 
       <CTASection
-        title="Ready to build your pet's care plan?"
+        title="Ready to build your dog's care plan?"
         subtitle="Start with a complimentary Meet & Greet and ask about our Founding Family Offer."
       />
     </>

@@ -5,12 +5,12 @@
  */
 
 export const site = {
-  name: "Ballage Pet Concierge",
+  name: "Ballage Dog Care",
   legalName: "Ballage Pet Concierge LLC",
-  tagline: "More than pet care. Peace of mind.",
-  positioning: "We don't just care for pets. We care for family members.",
+  tagline: "More than dog care. Peace of mind.",
+  positioning: "We don't just care for dogs. We care for family members.",
   description:
-    "Ballage Pet Concierge provides trusted, personalized care for Southern Indiana pets — from puppy adventures to senior companionship and compassionate final moments.",
+    "Ballage Dog Care provides trusted, personalized care for Southern Indiana dogs — from playful puppies to adventurous adults and gentle seniors. Every walk, every wag, every stage.",
   // Update to your production domain before launch.
   url: "https://ballagepetconcierge.com",
   email: "hello@ballagepetconcierge.com",
@@ -29,17 +29,17 @@ export const serviceAreas = [
   {
     city: "New Albany",
     state: "IN",
-    blurb: "Daily walks, drop-ins, and concierge care across New Albany neighborhoods.",
+    blurb: "Daily walks, drop-ins, and adventure outings across New Albany neighborhoods.",
   },
   {
     city: "Clarksville",
     state: "IN",
-    blurb: "Trusted pet sitting and vacation care for Clarksville families.",
+    blurb: "Trusted dog walking and vacation care for Clarksville families.",
   },
   {
     city: "Sellersburg",
     state: "IN",
-    blurb: "Reliable visits and companionship for Sellersburg pets.",
+    blurb: "Reliable visits and companionship for Sellersburg dogs.",
   },
   {
     city: "Jeffersonville",
@@ -49,12 +49,12 @@ export const serviceAreas = [
   {
     city: "Floyds Knobs",
     state: "IN",
-    blurb: "Attentive, unhurried care for pets in Floyds Knobs.",
+    blurb: "Attentive, unhurried care for dogs in Floyds Knobs.",
   },
   {
     city: "Louisville Metro",
     state: "KY/IN",
-    blurb: "Concierge pet care across the greater Louisville metro area.",
+    blurb: "Trusted dog care across the greater Louisville metro area.",
   },
 ] as const;
 
@@ -65,9 +65,11 @@ export const navLinks = [
     label: "Services",
     href: "/services",
     children: [
-      { label: "Daily Pet Concierge", href: "/services/dog-walking" },
+      { label: "Daily Dog Care", href: "/services/dog-walking" },
       { label: "Puppy Foundations™", href: "/services/puppy-care" },
+      { label: "Adventure Outings™", href: "/services/adventure-outings" },
       { label: "Senior Companion Care™", href: "/services/senior-care" },
+      { label: "Vet Visit Rides", href: "/services/vet-rides" },
       { label: "Final Journey Care™", href: "/services/final-journey-care" },
     ],
   },

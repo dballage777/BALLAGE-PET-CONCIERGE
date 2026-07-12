@@ -15,7 +15,7 @@ import { site } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Contact & Book a Meet & Greet",
   description:
-    "Book a complimentary Meet & Greet with Ballage Pet Concierge. Serving New Albany, Clarksville, Sellersburg, Jeffersonville, Floyds Knobs & the Louisville metro.",
+    "Book a complimentary Meet & Greet with Ballage Dog Care. Serving New Albany, Clarksville, Sellersburg, Jeffersonville, Floyds Knobs & the Louisville metro.",
   alternates: { canonical: "/contact" },
 };
 
@@ -91,7 +91,7 @@ export default function ContactPage() {
               align="left"
               eyebrow="Book a Meet & Greet"
               title="Request your complimentary visit"
-              description="Tell us a little about you and your pet. We'll reach out to schedule your Meet & Greet and start building a personalized care plan."
+              description="Tell us a little about you and your dog. We'll reach out to schedule your Meet & Greet and start building a personalized care plan."
             />
             <div className="mt-8 rounded-2xl border border-forest-100 bg-white p-6">
               <p className="font-display text-lg font-semibold text-forest-900">
@@ -101,7 +101,7 @@ export default function ContactPage() {
                 {[
                   "We reach out within one business day.",
                   "We schedule an in-home Meet & Greet at your convenience.",
-                  "We build a care plan tailored to your pet.",
+                  "We build a care plan tailored to your dog.",
                   "You relax — with Daily Paw Reports after every visit.",
                 ].map((step, i) => (
                   <li key={i} className="flex gap-3">
@@ -120,12 +120,12 @@ export default function ContactPage() {
         </div>
       </Section>
 
-      {/* Pet intake questionnaire */}
+      {/* Dog intake questionnaire */}
       <Section id="intake" className="bg-white">
         <SectionHeading
-          eyebrow="Pet Intake Questionnaire"
-          title="Tell us about your pet"
-          description="Already booked, or ready to share the details? This intake helps us build a complete, thoughtful care plan — the foundation of your pet's future profile."
+          eyebrow="Dog Intake Questionnaire"
+          title="Tell us about your dog"
+          description="Already booked, or ready to share the details? This intake helps us build a complete, thoughtful care plan — the foundation of your dog's future profile."
         />
         <div className="mx-auto mt-10 max-w-3xl rounded-3xl border border-forest-100 bg-cream p-6 shadow-card sm:p-10">
           <PetIntakeForm />
@@ -147,7 +147,7 @@ export default function ContactPage() {
                 Join our newsletter
               </p>
               <p className="mb-4 text-sm text-forest-700/80">
-                Seasonal pet-care tips, local updates, and the occasional
+                Seasonal dog-care tips, local updates, and the occasional
                 adorable client photo.
               </p>
               <NewsletterSignup />

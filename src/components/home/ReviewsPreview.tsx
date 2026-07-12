@@ -10,7 +10,7 @@ export default function ReviewsPreview() {
       <SectionHeading
         eyebrow="Kind Words"
         title="Trusted by Southern Indiana families"
-        description="Real peace of mind, in the words of the families and pets we care for."
+        description="Real peace of mind, in the words of the families and dogs we care for."
       />
       <div className="mt-14 grid gap-6 lg:grid-cols-3">
         {reviews.slice(0, 3).map((review) => (

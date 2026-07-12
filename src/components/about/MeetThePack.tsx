@@ -156,7 +156,7 @@ export default function MeetThePack() {
       <SectionHeading
         eyebrow="Meet the Pack"
         title="The dogs who inspire us"
-        description="Our own dogs are the reason we do this. They remind us every day what it means to love a pet like family."
+        description="Our own dogs are the reason we do this. They remind us every day what it means to love a dog like family."
       />
       <div className="mx-auto mt-14 max-w-5xl space-y-8">
         {featured.map((dog) => (

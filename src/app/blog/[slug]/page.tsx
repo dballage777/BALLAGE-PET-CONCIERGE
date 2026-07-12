@@ -97,10 +97,10 @@ export default function BlogPostPage({
 
             <div className="mt-12 rounded-2xl border border-forest-100 bg-cream p-8 text-center">
               <p className="font-display text-xl font-semibold text-forest-900">
-                Looking for trusted pet care in Southern Indiana?
+                Looking for trusted dog care in Southern Indiana?
               </p>
               <p className="mx-auto mt-2 max-w-lg text-forest-700/80">
-                Ballage Pet Concierge is here for every stage of your pet&apos;s
+                Ballage Dog Care is here for every stage of your dog&apos;s
                 life. Start with a complimentary Meet &amp; Greet.
               </p>
               <Link

@@ -9,9 +9,9 @@ import { breadcrumbSchema } from "@/lib/schema";
 import { services } from "@/lib/services";
 
 export const metadata: Metadata = {
-  title: "Pet Care Services in Southern Indiana",
+  title: "Dog Care Services in Southern Indiana",
   description:
-    "Explore our premium pet care services: Daily Pet Concierge, Puppy Foundations™, Senior Companion Care™, and Final Journey Care™ — serving Southern Indiana & Louisville.",
+    "Explore our dog care services: Daily Dog Care, Puppy Foundations™, Adventure Outings™, Senior Companion Care™, and Vet Visit Rides — serving Southern Indiana & Louisville.",
   alternates: { canonical: "/services" },
 };
 
@@ -26,8 +26,8 @@ export default function ServicesPage() {
       />
       <PageHero
         eyebrow="Our Services"
-        title="Concierge care for every chapter of life"
-        subtitle="From a puppy's first adventures to a senior's gentle days and the most tender final moments — thoughtful, professional care tailored to your pet."
+        title="Care for every stage of a dog's life"
+        subtitle="From a puppy's first lessons to an adult's trail adventures to a senior's gentle days — thoughtful, professional care tailored to your dog."
       />
 
       <Section className="bg-cream">

@@ -12,9 +12,9 @@ import { site } from "@/lib/site";
 import type { IconName } from "@/types";
 
 export const metadata: Metadata = {
-  title: "About Ballage Pet Concierge",
+  title: "About Ballage Dog Care",
   description:
-    "Ballage Pet Concierge is a premium, locally owned pet care company serving Southern Indiana and the Louisville metro. Learn about our values, our promise, and our approach.",
+    "Ballage Dog Care is a premium, locally owned dog care company serving Southern Indiana and the Louisville metro. Learn about our values, our promise, and our approach.",
   alternates: { canonical: "/about" },
 };
 
@@ -22,22 +22,22 @@ const values: { icon: IconName; title: string; body: string }[] = [
   {
     icon: "heart",
     title: "Compassion",
-    body: "We treat every pet as our own and every family with warmth. Care, to us, is a feeling before it's a service.",
+    body: "We treat every dog as our own and every family with warmth. Care, to us, is a feeling before it's a service.",
   },
   {
     icon: "shield",
     title: "Trust & Safety",
-    body: "Pet First Aid certified, insured, and meticulous about your pet's wellbeing and your home's security.",
+    body: "Pet First Aid certified, insured, and meticulous about your dog's wellbeing and your home's security.",
   },
   {
     icon: "report",
     title: "Transparency",
-    body: "Daily Paw Reports and honest communication mean you're never left wondering how your pet is doing.",
+    body: "Daily Paw Reports and honest communication mean you're never left wondering how your dog is doing.",
   },
   {
     icon: "paw",
     title: "Consistency",
-    body: "Dependable, familiar care builds real relationships — the kind pets and families can count on for years.",
+    body: "Dependable, familiar care builds real relationships — the kind dogs and families can count on for years.",
   },
 ];
 
@@ -52,7 +52,7 @@ export default function AboutPage() {
       />
       <PageHero
         eyebrow="About Us"
-        title="More than pet care. Peace of mind."
+        title="More than dog care. Peace of mind."
         subtitle={site.positioning}
       />
 
@@ -63,26 +63,26 @@ export default function AboutPage() {
           </p>
           <div className="mt-4 space-y-6 text-lg leading-relaxed text-forest-800">
             <p>
-              Ballage Pet Concierge was founded on a belief that anyone who has
-              ever loved an animal understands instinctively:{" "}
+              Ballage Dog Care was founded on a belief that anyone who has
+              ever loved a dog understands instinctively:{" "}
               <strong className="font-semibold text-forest-900">
-                our pets are family.
+                our dogs are family.
               </strong>{" "}
               They greet us at the door, curl up beside us on hard days, and give
               us their whole hearts. They deserve care that honors that bond.
             </p>
             <p>
               We saw too many families settling for someone who simply &ldquo;stops
-              by.&rdquo; So we built something different — a premium, concierge
-              approach to pet care rooted in professionalism, compassion, and
-              genuine relationships. We care for pets at every stage of life,
-              from a puppy&apos;s first wobbly walks to a senior&apos;s gentle
-              days, and through the most tender final chapters.
+              by.&rdquo; So we built something different — a premium approach to
+              dog care rooted in professionalism, compassion, and genuine
+              relationships. We&apos;re here for dogs at every stage of life,
+              from a puppy&apos;s first wobbly walks to an adult&apos;s trail
+              adventures to a senior&apos;s gentle days.
             </p>
             <p>
               As a locally owned business serving {site.areaLabel}, we&apos;re not
               a faceless app or a rotating cast of strangers. We&apos;re your
-              neighbors — the people who learn your pet&apos;s name, quirks, and
+              neighbors — the people who learn your dog&apos;s name, quirks, and
               favorite spots, and who show up with consistency and heart.
             </p>
           </div>
@@ -124,11 +124,11 @@ export default function AboutPage() {
             Our Promise
           </p>
           <blockquote className="mt-5 font-display text-2xl font-medium leading-relaxed sm:text-3xl">
-            &ldquo;We don&apos;t just care for pets. We care for family members —
+            &ldquo;We don&apos;t just care for dogs. We care for family members —
             with the professionalism you expect and the compassion they
             deserve.&rdquo;
           </blockquote>
-          <p className="mt-6 text-cream/70">— The Ballage Pet Concierge Family</p>
+          <p className="mt-6 text-cream/70">— The Ballage Dog Care Family</p>
         </div>
       </Section>
 

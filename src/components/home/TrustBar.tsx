@@ -5,12 +5,12 @@ const items: { icon: IconName; title: string; sub: string }[] = [
   {
     icon: "shield",
     title: "Pet First Aid Certified",
-    sub: "Trained for your pet's safety",
+    sub: "Trained for your dog's safety",
   },
   {
     icon: "heart",
     title: "Insured & Bonded",
-    sub: "Your pet & home protected",
+    sub: "Your dog & home protected",
   },
   {
     icon: "report",

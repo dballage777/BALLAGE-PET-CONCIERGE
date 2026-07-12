@@ -4,19 +4,19 @@ import Button from "@/components/shared/Button";
 const points = [
   {
     title: "Genuine relationships",
-    body: "We build long-term relationships with your pet and your family — not one-off visits. Consistency and trust are the foundation of great care.",
+    body: "We build long-term relationships with your dog and your family — not one-off visits. Consistency and trust are the foundation of great care.",
   },
   {
     title: "One-on-one attention",
-    body: "Every visit is personal and unhurried. Your pet is never one of a crowd; the whole visit is theirs.",
+    body: "Every visit is personal and unhurried. Your dog is never one of a crowd; the whole visit is theirs.",
   },
   {
     title: "Complete transparency",
-    body: "Photos, videos, and detailed notes after every visit mean you always know exactly how your pet's day went.",
+    body: "Photos, videos, and detailed notes after every visit mean you always know exactly how your dog's day went.",
   },
   {
     title: "Care for every stage",
-    body: "From energetic puppies to gentle seniors and tender final chapters, we're here for the whole journey.",
+    body: "From energetic puppies to adventurous adults and gentle seniors, we're here for the whole journey.",
   },
 ];
 
@@ -29,13 +29,13 @@ export default function WhyBallage() {
             Why Ballage
           </p>
           <h2 className="font-display text-3xl font-semibold leading-tight tracking-tight text-forest-900 sm:text-4xl">
-            Your pets are family. They deserve more than someone stopping by.
+            Your dog is family. They deserve more than someone stopping by.
           </h2>
           <p className="mt-6 text-lg leading-relaxed text-forest-700/80">
-            Ballage Pet Concierge was built on a simple belief: the animals we
+            Ballage Dog Care was built on a simple belief: the dogs we
             love are members of the family, and their care should feel that way.
             We bring professionalism, compassion, and consistency to every
-            visit — so you can be fully present in your life, knowing your pet
+            visit — so you can be fully present in your life, knowing your dog
             is truly cared for.
           </p>
           <div className="mt-8">

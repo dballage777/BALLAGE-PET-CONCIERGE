@@ -16,7 +16,7 @@ export default function BookingForm() {
     return (
       <SuccessCard
         title="Request received"
-        message="Thank you! We'll reach out shortly to schedule your complimentary Meet & Greet and build your pet's care plan."
+        message="Thank you! We'll reach out shortly to schedule your complimentary Meet & Greet and build your dog's care plan."
       />
     );
   }
@@ -68,7 +68,7 @@ export default function BookingForm() {
         </Field>
       </div>
       <Field
-        label="Tell us about your pet"
+        label="Tell us about your dog"
         htmlFor="b-notes"
         hint="Breed, age, personality, and anything special we should know."
       >

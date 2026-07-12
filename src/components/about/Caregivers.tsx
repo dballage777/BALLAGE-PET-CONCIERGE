@@ -18,7 +18,7 @@ export default function Caregivers() {
       <SectionHeading
         eyebrow="Meet Your Caregivers"
         title="The family behind Ballage"
-        description="When you trust us with your pet, you're trusting real people who treat your family member like their own. Here's who we are."
+        description="When you trust us with your dog, you're trusting real people who treat your family member like their own. Here's who we are."
       />
       <div className="mx-auto mt-14 grid max-w-4xl gap-8 sm:grid-cols-2">
         {caregivers.map((person) => (

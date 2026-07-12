@@ -10,7 +10,7 @@ export const reviews: Review[] = [
     name: "Sarah M.",
     location: "New Albany, IN",
     petName: "Cooper",
-    service: "Daily Pet Concierge",
+    service: "Daily Dog Care",
     rating: 5,
     quote:
       "I never worry when I'm at work anymore. Cooper is calmer, better exercised, and the daily photo updates are the highlight of my afternoon. This is real peace of mind.",
@@ -45,19 +45,19 @@ export const reviews: Review[] = [
   {
     name: "Marcus T.",
     location: "Sellersburg, IN",
-    petName: "Luna & Nova",
-    service: "Daily Pet Concierge",
+    petName: "Ranger",
+    service: "Adventure Outings™",
     rating: 5,
     quote:
-      "Two cats, a week away, and zero stress. The drop-in visits and detailed notes were flawless. I came home to two happy, relaxed cats. Absolutely worth it.",
+      "Ranger has endless energy, and a normal walk just wasn't cutting it. The trail adventures wear him out in the best way — he comes home happy and tired, and the photos from the trail are the best. Total game-changer.",
   },
   {
     name: "Priya S.",
     location: "Louisville Metro",
     petName: "Gus",
-    service: "Daily Pet Concierge",
+    service: "Daily Dog Care",
     rating: 5,
     quote:
-      "Professional, punctual, and clearly in love with animals. Gus adores them, and the personalized reports make me feel like I never left. Highly recommend to anyone in the area.",
+      "Professional, punctual, and clearly in love with dogs. Gus adores them, and the personalized reports make me feel like I never left. Highly recommend to anyone in the area.",
   },
 ];
