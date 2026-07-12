@@ -7,6 +7,52 @@ import type { BlogPost } from "@/types";
  */
 export const blogPosts: BlogPost[] = [
   {
+    slug: "calm-care-for-anxious-reactive-dogs",
+    title: "Calm, Low-Stress Care for Anxious & Reactive Dogs",
+    excerpt:
+      "Nervous, shy, or reactive dogs need patience and the right approach. Here's how gentle, one-on-one care helps anxious dogs feel safe.",
+    category: "Reactive Dogs",
+    date: "2026-07-02",
+    readingTime: "6 min read",
+    author: "Ballage Dog Care",
+    keywords: [
+      "reactive dog care Southern Indiana",
+      "anxious dog sitter New Albany",
+      "low-stress dog walking",
+    ],
+    content: [
+      "If your dog barks, lunges, freezes, or hides when the world gets to be too much, you're not alone — and your dog isn't 'bad.' Reactivity and anxiety are incredibly common, and the right care can make a world of difference. The problem is that most group daycares and rushed dog walkers make things worse, not better.",
+      "Go slow and let them lead. Anxious dogs need to feel in control. We never force interactions or 'flood' a dog with the very things that scare them. Instead, we move at their pace, watch their body language, and build trust one calm visit at a time.",
+      "Keep it one-on-one. A crowded daycare or a walker juggling six dogs is a recipe for stress. Private, predictable, one-on-one care removes the biggest triggers and lets a nervous dog relax into a routine they can count on.",
+      "Manage the environment. For a reactive dog, success is often about avoiding triggers rather than confronting them — choosing quieter routes, keeping distance from other dogs, and giving your dog space to decompress with sniffing and gentle exploration.",
+      "Communicate constantly. When you love an anxious dog, you worry. Photos, videos, and honest notes after every visit turn that worry into reassurance — so you always know your dog felt safe.",
+      "If your dog needs a little extra patience, that's exactly what we're here for. Reach out and tell us about your dog — there's no such thing as too nervous.",
+    ],
+  },
+  {
+    slug: "puppy-socialization-southern-indiana",
+    title: "Puppy Socialization in Southern Indiana: A Simple Guide",
+    excerpt:
+      "The first months shape your dog's whole life. Here's how to socialize your puppy the right way — calm, positive, and at their pace.",
+    category: "Puppies",
+    date: "2026-06-25",
+    readingTime: "5 min read",
+    author: "Ballage Dog Care",
+    keywords: [
+      "puppy socialization Southern Indiana",
+      "puppy care New Albany Indiana",
+      "new puppy help",
+    ],
+    content: [
+      "Socialization is the single most important thing you can do for a young puppy — and there's a window (roughly up to 16 weeks) when it matters most. But 'socialization' doesn't mean overwhelming your puppy with everything at once. Done wrong, it can create the very fears you're trying to prevent.",
+      "Think quality, not quantity. Good socialization is calm, positive exposure to new sights, sounds, surfaces, and gentle handling — always at a distance and pace your puppy is comfortable with. One good experience beats ten stressful ones.",
+      "Build a routine. Puppies thrive on predictable potty breaks, feeding, rest, and play. Consistency between everyone who cares for your pup is what turns good habits into lifelong ones.",
+      "Protect their rest. Puppies need a surprising amount of sleep. Overtired puppies get nippy and frantic — enforced nap time is part of good care, not a break from it.",
+      "Get help if you're stretched thin. Balancing a new puppy with work is genuinely hard. Consistent daytime support — potty breaks, socialization, and enrichment — keeps your puppy on track while you're away, and keeps you sane.",
+      "Our Puppy Foundations™ service is built around exactly this: routine, gentle socialization, healthy exercise, and coaching for you. Reach out and let's give your puppy the best possible start.",
+    ],
+  },
+  {
     slug: "choosing-a-dog-sitter-new-albany-indiana",
     title: "How to Choose a Dog Sitter in New Albany, Indiana",
     excerpt:

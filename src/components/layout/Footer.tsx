@@ -55,6 +55,14 @@ export default function Footer() {
                     </Link>
                   </li>
                 ))}
+              <li>
+                <Link
+                  href="/policies"
+                  className="transition-colors hover:text-gold-300"
+                >
+                  Policies
+                </Link>
+              </li>
             </ul>
             <h3 className="mt-8 text-sm font-semibold uppercase tracking-wider text-cream">
               Service Area
