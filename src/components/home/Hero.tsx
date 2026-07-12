@@ -43,52 +43,35 @@ export default function Hero() {
           </p>
         </div>
 
-        {/* Visual panel */}
+        {/* Visual panel — meet Oz */}
         <div className="lg:col-span-5">
           <div className="relative mx-auto max-w-md">
-            <div className="rounded-3xl border border-forest-700 bg-gradient-to-br from-forest-800 to-forest-900 p-8 shadow-soft">
-              <div className="space-y-6">
-                {[
-                  {
-                    stat: "Every stage",
-                    label: "Puppy • Adult • Senior • Final Journey",
-                  },
-                  {
-                    stat: "Daily Paw Reports",
-                    label: "Photos, videos & notes after every visit",
-                  },
-                  {
-                    stat: "Pet First Aid Certified",
-                    label: "Trained, insured & genuinely caring",
-                  },
-                ].map((item) => (
-                  <div
-                    key={item.stat}
-                    className="flex items-start gap-4 rounded-2xl bg-forest-950/40 p-4"
-                  >
-                    <span className="mt-1 grid h-9 w-9 shrink-0 place-items-center rounded-full bg-gold-500 text-forest-950">
-                      <svg
-                        className="h-5 w-5"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        strokeWidth={2.2}
-                        aria-hidden
-                      >
-                        <path d="m5 13 4 4L19 7" />
-                      </svg>
-                    </span>
-                    <div>
-                      <p className="font-display text-lg font-semibold text-cream">
-                        {item.stat}
-                      </p>
-                      <p className="text-sm text-cream/70">{item.label}</p>
-                    </div>
-                  </div>
-                ))}
-              </div>
+            <div className="overflow-hidden rounded-3xl border border-forest-700 shadow-soft">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/gallery/oz-1.jpg"
+                alt="Oz, a nine-year-old Heeler-Lab mix, enjoying the sunshine"
+                className="aspect-[4/5] w-full object-cover"
+              />
             </div>
-            <div className="absolute -bottom-5 left-1/2 -translate-x-1/2 rounded-full bg-cream px-6 py-2.5 text-sm font-semibold text-forest-900 shadow-soft">
+            {/* Floating trust chip */}
+            <div className="absolute -left-3 top-6 flex items-center gap-2 rounded-full bg-cream px-4 py-2 text-xs font-semibold text-forest-900 shadow-soft sm:-left-5">
+              <span className="grid h-6 w-6 place-items-center rounded-full bg-forest-800 text-gold-400">
+                <svg
+                  className="h-3.5 w-3.5"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth={2.4}
+                  aria-hidden
+                >
+                  <path d="m5 13 4 4L19 7" />
+                </svg>
+              </span>
+              Pet First Aid Certified
+            </div>
+            {/* Tagline badge */}
+            <div className="absolute -bottom-5 left-1/2 -translate-x-1/2 whitespace-nowrap rounded-full bg-gold-500 px-6 py-2.5 text-sm font-semibold text-forest-950 shadow-soft">
               {site.tagline}
             </div>
           </div>
