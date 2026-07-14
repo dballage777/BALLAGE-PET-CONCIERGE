@@ -33,7 +33,7 @@ export const caregivers: Caregiver[] = [
     name: "Heidi Ballage",
     role: "Founder & Dog Caregiver",
     bio: [
-      "Heidi turned a lifelong love of dogs into Ballage Dog Care, built on one simple promise: treat every dog like one of her own.",
+      "Heidi turned a lifelong love of dogs into Ballage Pet Concierge, built on one simple promise: treat every dog like one of her own.",
       "Alongside her husband David and their dogs Ozzypoo and Raussie Bear, Heidi is dedicated to giving Southern Indiana families the same peace of mind she'd want for her own pack — professional, compassionate care from someone who genuinely loves what she does.",
     ],
     photo: "/gallery/heidi.jpg",
@@ -60,7 +60,7 @@ export const pack: PackMember[] = [
     photo: "/gallery/oz-portrait.jpg",
     bio: [
       "Meet Ozzypoo — our nine-year-old Heeler-Lab mix and the very heart of the Ballage household. If you've ever wondered what unconditional love looks like, it's Ozzypoo. He's what we lovingly call a “real boy” — the most affectionate dog we've ever known, and the inspiration behind the way we care for every dog.",
-      "Ozzypoo is proof of what love and good care can do: he made a full recovery from double CCL surgery in June 2024, and he's back to doing all the things he loves. He's why Ballage Dog Care exists — because every dog deserves to be loved like family.",
+      "Ozzypoo is proof of what love and good care can do: he made a full recovery from double CCL surgery in June 2024, and he's back to doing all the things he loves. He's why Ballage Pet Concierge exists — because every dog deserves to be loved like family.",
     ],
     loves: [
       "Long walks (and “talking to” every friend he meets)",

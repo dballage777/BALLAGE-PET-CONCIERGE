@@ -9,7 +9,7 @@ import { policies, policiesIntro } from "@/lib/policies";
 export const metadata: Metadata = {
   title: "Policies & Service Agreement",
   description:
-    "How Ballage Dog Care works: booking, cancellations, vaccination requirements, key handling, payments, and safety — simple, fair, and transparent.",
+    "How Ballage Pet Concierge works: booking, cancellations, vaccination requirements, key handling, payments, and safety — simple, fair, and transparent.",
   alternates: { canonical: "/policies" },
 };
 

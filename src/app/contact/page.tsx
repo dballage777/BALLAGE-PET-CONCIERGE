@@ -15,7 +15,7 @@ import { site } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Contact & Book a Meet & Greet",
   description:
-    "Book a complimentary Meet & Greet with Ballage Dog Care. Serving New Albany, Clarksville, Sellersburg, Jeffersonville, Floyds Knobs & the Louisville metro.",
+    "Book a complimentary Meet & Greet with Ballage Pet Concierge. Serving New Albany, Clarksville, Sellersburg, Jeffersonville, Floyds Knobs & the Louisville metro.",
   alternates: { canonical: "/contact" },
 };
 

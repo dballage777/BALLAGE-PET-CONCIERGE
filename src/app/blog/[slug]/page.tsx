@@ -100,7 +100,7 @@ export default function BlogPostPage({
                 Looking for trusted dog care in Southern Indiana?
               </p>
               <p className="mx-auto mt-2 max-w-lg text-forest-700/80">
-                Ballage Dog Care is here for every stage of your dog&apos;s
+                Ballage Pet Concierge is here for every stage of your dog&apos;s
                 life. Start with a complimentary Meet &amp; Greet.
               </p>
               <Link

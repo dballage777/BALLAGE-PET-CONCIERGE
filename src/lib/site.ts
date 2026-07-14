@@ -5,12 +5,12 @@
  */
 
 export const site = {
-  name: "Ballage Dog Care",
+  name: "Ballage Pet Concierge",
   legalName: "Ballage Pet Concierge LLC",
   tagline: "More than dog care. Peace of mind.",
   positioning: "We don't just care for dogs. We care for family members.",
   description:
-    "Ballage Dog Care provides trusted, personalized care for Southern Indiana dogs — from playful puppies to adventurous adults and gentle seniors. Every walk, every wag, every stage.",
+    "Ballage Pet Concierge provides trusted, personalized care for Southern Indiana dogs — from playful puppies to adventurous adults and gentle seniors. Every walk, every wag, every stage.",
   // Update to your production domain before launch.
   url: "https://ballagepetconcierge.com",
   email: "hello@ballagepetconcierge.com",

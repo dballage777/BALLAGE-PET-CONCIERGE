@@ -70,7 +70,7 @@ export default function WhyVsRest() {
               <th className="w-2/5 p-4 text-left text-sm font-semibold text-forest-700"></th>
               <th className="rounded-t-2xl bg-forest-900 p-4 text-center">
                 <span className="font-display text-lg font-semibold text-cream">Ballage</span>
-                <span className="block text-xs font-medium text-gold-300">Dog Care</span>
+                <span className="block text-xs font-medium text-gold-300">Pet Concierge</span>
               </th>
               <th className="p-4 text-center text-sm font-semibold text-forest-600">
                 Dog-walking apps

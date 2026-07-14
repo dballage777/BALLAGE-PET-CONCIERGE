@@ -14,7 +14,7 @@ export const faqs: FaqItem[] = [
     category: "Trust & Safety",
     question: "Are you insured and bonded?",
     answer:
-      "Yes. Ballage Dog Care is fully insured and bonded, so your dog and your home are protected the moment we're entrusted with their care. We're happy to share our coverage details at your Meet & Greet.",
+      "Yes. Ballage Pet Concierge is fully insured and bonded, so your dog and your home are protected the moment we're entrusted with their care. We're happy to share our coverage details at your Meet & Greet.",
   },
   {
     category: "Trust & Safety",

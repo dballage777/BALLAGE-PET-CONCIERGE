@@ -12,9 +12,9 @@ import { site } from "@/lib/site";
 import type { IconName } from "@/types";
 
 export const metadata: Metadata = {
-  title: "About Ballage Dog Care",
+  title: "About Ballage Pet Concierge",
   description:
-    "Ballage Dog Care is a premium, locally owned dog care company serving Southern Indiana and the Louisville metro. Learn about our values, our promise, and our approach.",
+    "Ballage Pet Concierge is a premium, locally owned dog care company serving Southern Indiana and the Louisville metro. Learn about our values, our promise, and our approach.",
   alternates: { canonical: "/about" },
 };
 
@@ -63,7 +63,7 @@ export default function AboutPage() {
           </p>
           <div className="mt-4 space-y-6 text-lg leading-relaxed text-forest-800">
             <p>
-              Ballage Dog Care was founded on a belief that anyone who has
+              Ballage Pet Concierge was founded on a belief that anyone who has
               ever loved a dog understands instinctively:{" "}
               <strong className="font-semibold text-forest-900">
                 our dogs are family.
@@ -128,7 +128,7 @@ export default function AboutPage() {
             with the professionalism you expect and the compassion they
             deserve.&rdquo;
           </blockquote>
-          <p className="mt-6 text-cream/70">— The Ballage Dog Care Family</p>
+          <p className="mt-6 text-cream/70">— The Ballage Pet Concierge Family</p>
         </div>
       </Section>
 

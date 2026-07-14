@@ -13,6 +13,8 @@ export interface Service {
   heroHeadline: string;
   heroSubcopy: string;
   intro: string;
+  /** Optional emphasized callout shown beneath the intro (e.g. an important clarification). */
+  note?: string;
   features: ServiceFeature[];
   idealFor: string[];
   includes: string[];

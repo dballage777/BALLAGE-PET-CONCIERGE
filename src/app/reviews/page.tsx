@@ -11,7 +11,7 @@ import { site } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Reviews & Testimonials",
   description:
-    "See why Southern Indiana families trust Ballage Dog Care for dog walking, puppy care, adventure outings, and senior dog care.",
+    "See why Southern Indiana families trust Ballage Pet Concierge for dog walking, puppy care, adventure outings, and senior dog care.",
   alternates: { canonical: "/reviews" },
 };
 

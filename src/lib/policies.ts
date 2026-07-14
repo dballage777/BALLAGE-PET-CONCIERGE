@@ -74,7 +74,7 @@ export const policies: Policy[] = [
   {
     title: "Safety, Insurance & Emergencies",
     body: [
-      "Ballage Dog Care is insured and bonded, and we're Pet First Aid certified.",
+      "Ballage Pet Concierge is insured and bonded, and we're Pet First Aid certified.",
       "Every care plan includes an emergency protocol built with you — your vet's information, an emergency contact, and clear instructions. If anything concerns us, we act immediately and keep you informed.",
     ],
   },

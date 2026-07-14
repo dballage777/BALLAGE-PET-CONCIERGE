@@ -14,7 +14,7 @@ export const blogPosts: BlogPost[] = [
     category: "Reactive Dogs",
     date: "2026-07-02",
     readingTime: "6 min read",
-    author: "Ballage Dog Care",
+    author: "Ballage Pet Concierge",
     keywords: [
       "reactive dog care Southern Indiana",
       "anxious dog sitter New Albany",
@@ -37,7 +37,7 @@ export const blogPosts: BlogPost[] = [
     category: "Puppies",
     date: "2026-06-25",
     readingTime: "5 min read",
-    author: "Ballage Dog Care",
+    author: "Ballage Pet Concierge",
     keywords: [
       "puppy socialization Southern Indiana",
       "puppy care New Albany Indiana",
@@ -60,7 +60,7 @@ export const blogPosts: BlogPost[] = [
     category: "Choosing Care",
     date: "2026-06-18",
     readingTime: "6 min read",
-    author: "Ballage Dog Care",
+    author: "Ballage Pet Concierge",
     keywords: [
       "dog sitter New Albany Indiana",
       "pet sitter Southern Indiana",
@@ -82,7 +82,7 @@ export const blogPosts: BlogPost[] = [
     category: "Senior Dogs",
     date: "2026-05-29",
     readingTime: "7 min read",
-    author: "Ballage Dog Care",
+    author: "Ballage Pet Concierge",
     keywords: [
       "senior dog care Southern Indiana",
       "senior pet care",
@@ -104,7 +104,7 @@ export const blogPosts: BlogPost[] = [
     category: "Vacation Care",
     date: "2026-04-15",
     readingTime: "5 min read",
-    author: "Ballage Dog Care",
+    author: "Ballage Pet Concierge",
     keywords: [
       "dog walking Louisville",
       "pet sitter Clarksville Indiana",

@@ -253,6 +253,8 @@ export const services: Service[] = [
       "Tender, unhurried support that helps families create peaceful, meaningful final moments with the dogs they love.",
     intro:
       "When a beloved companion nears the end of their journey, every moment matters. Final Journey Care™ surrounds your family with gentle, practical support — comfort visits, cherished last adventures, transportation when you need it, and a caring presence for the whole family.",
+    note:
+      "To be completely clear: we do not administer injections, medication, or anything that would end a pet's life — that is done only by a licensed veterinarian. Every medical decision stays with your vet. Our role is simply to be a calm, comforting presence for you and your dog.",
     features: [
       {
         title: "Comfort Visits",

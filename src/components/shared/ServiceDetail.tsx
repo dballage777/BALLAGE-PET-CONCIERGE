@@ -41,6 +41,14 @@ export default function ServiceDetail({ service }: { service: Service }) {
               {service.intro}
             </p>
 
+            {service.note && (
+              <div className="mt-6 rounded-2xl border border-gold-300 bg-gold-50 p-5">
+                <p className="text-sm leading-relaxed text-forest-800">
+                  {service.note}
+                </p>
+              </div>
+            )}
+
             <h2 className="mt-12 font-display text-2xl font-semibold text-forest-900">
               What&apos;s included
             </h2>

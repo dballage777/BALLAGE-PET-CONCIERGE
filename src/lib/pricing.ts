@@ -70,6 +70,29 @@ export const packages: PricePackage[] = [
     ],
   },
   {
+    serviceName: "Workday Dog Care",
+    href: "/services/dog-walking",
+    icon: "clock",
+    accent: "gold",
+    note: "Perfect for the 9-to-5",
+    items: [
+      {
+        name: "Workday Visit",
+        price: "$24",
+        unit: "30–45 min",
+        description:
+          "A midday visit while you're at work — potty break, fresh water, a meal if needed, play, and real company.",
+      },
+      {
+        name: "Extended Workday Visit",
+        price: "$38",
+        unit: "60 min",
+        description:
+          "A full hour for high-energy dogs or longer shifts — more exercise and companionship.",
+      },
+    ],
+  },
+  {
     serviceName: "Puppy Foundations",
     trademark: true,
     href: "/services/puppy-care",
@@ -196,6 +219,13 @@ export const addOns: PriceItem[] = [
     description: "Major holidays, so your dog is loved even on the big days.",
   },
   {
+    name: "Weekend one-off visit",
+    price: "+$5",
+    unit: "per visit",
+    description:
+      "A small premium on single Saturday or Sunday bookings — always waived for recurring weekly clients.",
+  },
+  {
     name: "Medication administration",
     price: "Included",
     description: "Oral and topical medications, given carefully and logged.",
@@ -245,6 +275,21 @@ export const bundles: Bundle[] = [
       "A 30-minute one-on-one walk every weekday — save versus booking individually, with the same great care.",
   },
   {
+    name: "Workday Week",
+    price: "$110",
+    unit: "5 midday visits / wk",
+    description:
+      "A midday in-home visit every weekday while you're at work — potty, a meal if needed, play, and company (more than just a walk). Save versus booking day by day.",
+  },
+  {
+    name: "Workday Care Pack",
+    price: "$220",
+    unit: "10 prepaid visits",
+    badge: "Best for shift work",
+    description:
+      "Ten midday workday visits to use any weekday — flexible for rotating or changing schedules, at a lower per-visit rate.",
+  },
+  {
     name: "Weekly Adventure Club",
     price: "$80",
     unit: "2 outings / week",
@@ -257,6 +302,13 @@ export const bundles: Bundle[] = [
     unit: "3 visits / day",
     description:
       "Three in-home visits a day while you travel — feeding, walks, potty breaks, and company — so your dog stays home and relaxed.",
+  },
+  {
+    name: "Weekend Getaway",
+    price: "$100",
+    unit: "4 visits, Sat–Sun",
+    description:
+      "Bundled weekend coverage while you're away — feeding, walks, potty breaks, and company across Saturday and Sunday, at a saving versus single weekend visits.",
   },
 ];
 

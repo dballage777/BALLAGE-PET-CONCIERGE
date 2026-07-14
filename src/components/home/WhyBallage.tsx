@@ -32,7 +32,7 @@ export default function WhyBallage() {
             Your dog is family. They deserve more than someone stopping by.
           </h2>
           <p className="mt-6 text-lg leading-relaxed text-forest-700/80">
-            Ballage Dog Care was built on a simple belief: the dogs we
+            Ballage Pet Concierge was built on a simple belief: the dogs we
             love are members of the family, and their care should feel that way.
             We bring professionalism, compassion, and consistency to every
             visit — so you can be fully present in your life, knowing your dog

@@ -10,7 +10,7 @@ import { faqs, type FaqItem } from "@/lib/faq";
 export const metadata: Metadata = {
   title: "Frequently Asked Questions",
   description:
-    "Answers about insurance, safety, Meet & Greets, daily updates, and how Ballage Dog Care cares for dogs across New Albany, Clarksville & Southern Indiana.",
+    "Answers about insurance, safety, Meet & Greets, daily updates, and how Ballage Pet Concierge cares for dogs across New Albany, Clarksville & Southern Indiana.",
   alternates: { canonical: "/faq" },
 };
 

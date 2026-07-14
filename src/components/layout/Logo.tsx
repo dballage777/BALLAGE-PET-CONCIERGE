@@ -31,7 +31,7 @@ export default function Logo({ inverted = false }: { inverted?: boolean }) {
         <span
           className={`text-[0.65rem] font-medium uppercase tracking-[0.22em] ${subColor}`}
         >
-          Dog Care
+          Pet Concierge
         </span>
       </span>
     </Link>

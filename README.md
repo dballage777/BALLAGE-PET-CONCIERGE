@@ -1,8 +1,8 @@
-# Ballage Dog Care
+# Ballage Pet Concierge
 
 > **More than dog care. Peace of mind.**
 
-The official website for **Ballage Dog Care** (legally Ballage Pet Concierge
+The official website for **Ballage Pet Concierge** (legally Ballage Pet Concierge
 LLC) — a premium dog-care company serving **New Albany, Clarksville,
 Sellersburg, Jeffersonville, Floyds Knobs**, and the greater **Southern Indiana
 / Louisville metro area**.
@@ -14,26 +14,36 @@ Built as a fast, accessible, SEO-optimized, mobile-first site with **Next.js 14
 
 ## 📚 Business & Growth Guides
 
-Downloadable PDF guides for running and growing Ballage Dog Care (editable
+Downloadable PDF guides for running and growing Ballage Pet Concierge (editable
 HTML sources live alongside them in [`docs/`](docs/)):
 
-- **[Getting Started & Growth Guide](docs/Ballage-Dog-Care-Getting-Started-Guide.pdf)**
+- **[Getting Started & Growth Guide](docs/Ballage-Pet-Concierge-Getting-Started-Guide.pdf)**
   — how to launch with free Founding Family sessions, build photo/review proof,
   and grow through two warm referral channels: the **Carepets vet** (existing
   dog owners) and **local breeders** (new puppy owners, via the New Puppy
   Starter offer). Also covers what makes Ballage different from competitors, the
   research behind the site, and insurance/bonding costs.
-- **[Certifications & Credentials Guide](docs/Ballage-Dog-Care-Certifications-Guide.pdf)**
+- **[Certifications & Credentials Guide](docs/Ballage-Pet-Concierge-Certifications-Guide.pdf)**
   — the licenses and certifications you need and the ones that give you an edge
   (Red Cross Pet First Aid, Fear Free, PSI/NAPPS), with real costs and priorities.
-- **[New Puppy Welcome Packet](docs/Ballage-Dog-Care-New-Puppy-Welcome-Packet.pdf)**
+- **[New Puppy Welcome Packet](docs/Ballage-Pet-Concierge-New-Puppy-Welcome-Packet.pdf)**
   — a printable one-page handout for breeder partners to tuck into puppy
   go-home folders: a first-week checklist plus the New Puppy Starter offer.
   *(Update the phone/website before printing.)*
-- **[Vet Partner Flyer & Referral Cards](docs/Ballage-Dog-Care-Carepets-Partner-Flyer.pdf)**
+- **[Vet Partner Flyer & Referral Cards](docs/Ballage-Pet-Concierge-Carepets-Partner-Flyer.pdf)**
   — a waiting-room flyer (leading with Vet Visit Rides) plus a page of cut-out
   referral cards for the Carepets front desk. *(Display only once Carepets
   agrees; update the phone/website before printing.)*
+- **[Gym Flyer](docs/Ballage-Pet-Concierge-Gym-Flyer.pdf)** — a letter-size
+  bulletin-board flyer for a gym, with tear-off phone tabs. Angle: busy, active
+  people who want their dog exercised (Adventure Outings + Workday Dog Care).
+  *(Add a QR code and update the phone/website before printing.)*
+- **[School Staff Flyer](docs/Ballage-Pet-Concierge-Staff-Flyer.pdf)** — a
+  letter-size flyer for a school staff lounge, written as a personal note from a
+  fellow staff member, with tear-off tabs and an Educator & Staff discount.
+  *(Fill in your school, add a QR code, and update the phone/website before
+  printing. Check your school/district policy on posting personal-business
+  materials first.)*
 
 ---
 
@@ -49,7 +59,9 @@ All project docs, in one place:
 - **Business & Growth Guides** (above) — HTML sources + PDFs in [`docs/`](docs/):
   [Getting Started](docs/getting-started-guide.html) ·
   [Certifications](docs/certifications-guide.html) ·
-  [New Puppy Welcome Packet](docs/new-puppy-welcome-packet.html)
+  [New Puppy Welcome Packet](docs/new-puppy-welcome-packet.html) ·
+  [Gym Flyer](docs/gym-flyer.html) ·
+  [School Staff Flyer](docs/staff-flyer.html)
 
 ---
 
